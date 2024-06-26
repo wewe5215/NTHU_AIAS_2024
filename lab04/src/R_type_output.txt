@@ -1,0 +1,133 @@
+[info] [0.005] SEED 1713677235476
+[info] [0.030] Inst:add x31, x3, x31
+[info] [0.041] PC:0
+[info] [0.042] ALU out:34
+[info] [0.043] WBdata:34
+[info] [0.043] Br taken:0
+[info] [0.044] Jmp taken:0
+[info] [0.044] ==============================
+[info] [0.045] Inst:sub x31, x3, x31
+[info] [0.047] PC:4
+[info] [0.048] ALU out:-28
+[info] [0.048] WBdata:-28
+[info] [0.048] Br taken:0
+[info] [0.048] Jmp taken:0
+[info] [0.049] ==============================
+[info] [0.050] Inst:sub x3, x4, x3
+[info] [0.052] PC:8
+[info] [0.052] ALU out:1
+[info] [0.053] WBdata:1
+[info] [0.053] Br taken:0
+[info] [0.053] Jmp taken:0
+[info] [0.053] ==============================
+[info] [0.055] Inst:sub x3, x4, x4
+[info] [0.056] PC:12
+[info] [0.057] ALU out:0
+[info] [0.058] WBdata:0
+[info] [0.058] Br taken:0
+[info] [0.058] Jmp taken:0
+[info] [0.058] ==============================
+[info] [0.059] Inst:sll x3, x4, x3
+[info] [0.059] PC:16
+[info] [0.060] ALU out:32
+[info] [0.060] WBdata:32
+[info] [0.060] Br taken:0
+[info] [0.061] Jmp taken:0
+[info] [0.061] ==============================
+[info] [0.062] Inst:sll x3, x4, x1
+[info] [0.062] PC:20
+[info] [0.063] ALU out:8
+[info] [0.063] WBdata:8
+[info] [0.063] Br taken:0
+[info] [0.063] Jmp taken:0
+[info] [0.064] ==============================
+[info] [0.065] Inst:sll x3, x4, x31
+[info] [0.065] PC:24
+[info] [0.066] ALU out:0
+[info] [0.067] WBdata:0
+[info] [0.067] Br taken:0
+[info] [0.067] Jmp taken:0
+[info] [0.067] ==============================
+[info] [0.069] Inst:slt x3, x4, x31
+[info] [0.070] PC:28
+[info] [0.071] ALU out:1
+[info] [0.071] WBdata:1
+[info] [0.071] Br taken:0
+[info] [0.072] Jmp taken:0
+[info] [0.072] ==============================
+[info] [0.073] Inst:slt x3, x31, x4
+[info] [0.073] PC:32
+[info] [0.074] ALU out:0
+[info] [0.075] WBdata:0
+[info] [0.077] Br taken:0
+[info] [0.078] Jmp taken:0
+[info] [0.078] ==============================
+[info] [0.080] Inst:slt x3, x4, x4
+[info] [0.081] PC:36
+[info] [0.082] ALU out:0
+[info] [0.082] WBdata:0
+[info] [0.083] Br taken:0
+[info] [0.084] Jmp taken:0
+[info] [0.084] ==============================
+[info] [0.085] Inst:sltu x3, x4, x31
+[info] [0.087] PC:40
+[info] [0.088] ALU out:1
+[info] [0.088] WBdata:1
+[info] [0.088] Br taken:0
+[info] [0.089] Jmp taken:0
+[info] [0.089] ==============================
+[info] [0.091] Inst:sltu x3, x31, x4
+[info] [0.092] PC:44
+[info] [0.092] ALU out:0
+[info] [0.093] WBdata:0
+[info] [0.093] Br taken:0
+[info] [0.093] Jmp taken:0
+[info] [0.094] ==============================
+[info] [0.095] Inst:sltu x3, x4, x4
+[info] [0.105] PC:48
+[info] [0.108] ALU out:0
+[info] [0.110] WBdata:0
+[info] [0.112] Br taken:0
+[info] [0.114] Jmp taken:0
+[info] [0.114] ==============================
+[info] [0.115] Inst:sltu x3, x0, x4
+[info] [0.116] PC:52
+[info] [0.116] ALU out:1
+[info] [0.117] WBdata:1
+[info] [0.118] Br taken:0
+[info] [0.119] Jmp taken:0
+[info] [0.119] ==============================
+[info] [0.121] Inst:xor x31, x3, x31
+[info] [0.122] PC:56
+[info] [0.123] ALU out:28
+[info] [0.123] WBdata:28
+[info] [0.124] Br taken:0
+[info] [0.125] Jmp taken:0
+[info] [0.125] ==============================
+[info] [0.126] Inst:srl x16, x13, x4
+[info] [0.126] PC:60
+[info] [0.127] ALU out:0
+[info] [0.127] WBdata:0
+[info] [0.128] Br taken:0
+[info] [0.128] Jmp taken:0
+[info] [0.128] ==============================
+[info] [0.129] Inst:sra x17, x15, x5
+[info] [0.131] PC:64
+[info] [0.132] ALU out:0
+[info] [0.132] WBdata:0
+[info] [0.133] Br taken:0
+[info] [0.134] Jmp taken:0
+[info] [0.135] ==============================
+[info] [0.141] Inst:or x31, x3, x31
+[info] [0.144] PC:68
+[info] [0.145] ALU out:31
+[info] [0.145] WBdata:31
+[info] [0.145] Br taken:0
+[info] [0.146] Jmp taken:0
+[info] [0.146] ==============================
+[info] [0.148] Inst:and x31, x30, x31
+[info] [0.148] PC:72
+[info] [0.149] ALU out:30
+[info] [0.149] WBdata:30
+[info] [0.149] Br taken:0
+[info] [0.150] Jmp taken:0
