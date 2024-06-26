@@ -1,0 +1,55 @@
+Output c & assembly function result
+c result :
+test0: 0
+test1: 0
+test2: 0
+test3: 0
+test4: 0
+test5: 0
+test6: 0
+test7: 0
+test8: 0
+test9: 0
+test10: 0
+test11: 0
+test12: 0
+test13: 0
+test14: 0
+test15: 0
+test16: 0
+test17: 0
+test18: 0
+test19: 0
+test20: 0
+test21: -1
+test22: 306
+test23: -1
+test24: -1
+test25: 0
+test26: -1
+test27: 8
+test28: 8
+test29: -4
+test30: 0
+test31: 0
+test32: 0
+test33: -1
+test34: -1
+test35: -1
+test36: -1
+test37: -1
+test38: -1
+test39: -1
+test40: -1
+test41: -1
+test42: -1
+test43: -1
+test44: -1
+test45: 2047
+test46: -205
+test47: -513
+test48: -65
+test49: -33
+Baremetal code runs to the end. (pressing `ctrl+a x` to quit)
+QEMU: Terminated
+

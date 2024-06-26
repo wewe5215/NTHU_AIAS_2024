@@ -1,0 +1,1634 @@
+[info] welcome to sbt 1.9.8 (Ubuntu Java 11.0.21)
+[info] loading project definition from /home/wewe5215/projects/lab14/memory-mapped-hardware/project
+[info] loading settings for project memory-mapped-hardware from build.sbt ...
+[info] set current project to acal_lab14 (in build file:/home/wewe5215/projects/lab14/memory-mapped-hardware/)
+[info] running acal_lab14.topSystolicArray.top_14_3_2_DMA_Test -tbn verilator
+cd /home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725 && verilator --cc top_Hw14_3_2_DMA.v --assert -Wno-fatal -Wno-WIDTH -Wno-STMTDLY -O1 --top-module top_Hw14_3_2_DMA +define+TOP_TYPE=Vtop_Hw14_3_2_DMA +define+PRINTF_COND=!top_Hw14_3_2_DMA.reset +define+STOP_COND=!top_Hw14_3_2_DMA.reset -CFLAGS "-Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h" -Mdir /home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725 -f /home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725/firrtl_black_box_resource_files.f --exe /home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725/top_Hw14_3_2_DMA-harness.cpp --trace
+make: Entering directory '/home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725'
+g++  -I.  -MMD -I/usr/share/verilator/include -I/usr/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow     -Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h   -c -o top_Hw14_3_2_DMA-harness.o /home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725/top_Hw14_3_2_DMA-harness.cpp
+g++  -I.  -MMD -I/usr/share/verilator/include -I/usr/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow     -Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h   -c -o verilated.o /usr/share/verilator/include/verilated.cpp
+g++  -I.  -MMD -I/usr/share/verilator/include -I/usr/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow     -Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h   -c -o verilated_vcd_c.o /usr/share/verilator/include/verilated_vcd_c.cpp
+/usr/bin/perl /usr/share/verilator/bin/verilator_includer -DVL_INCLUDE_OPT=include Vtop_Hw14_3_2_DMA.cpp Vtop_Hw14_3_2_DMA___024unit.cpp > Vtop_Hw14_3_2_DMA__ALLcls.cpp
+/usr/bin/perl /usr/share/verilator/bin/verilator_includer -DVL_INCLUDE_OPT=include Vtop_Hw14_3_2_DMA__Trace.cpp Vtop_Hw14_3_2_DMA__Syms.cpp Vtop_Hw14_3_2_DMA__Trace__Slow.cpp > Vtop_Hw14_3_2_DMA__ALLsup.cpp
+g++  -I.  -MMD -I/usr/share/verilator/include -I/usr/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow     -Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h   -c -o Vtop_Hw14_3_2_DMA__ALLcls.o Vtop_Hw14_3_2_DMA__ALLcls.cpp
+g++  -I.  -MMD -I/usr/share/verilator/include -I/usr/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow     -Wno-undefined-bool-conversion -O1 -DTOP_TYPE=Vtop_Hw14_3_2_DMA -DVL_USER_FINISH -include Vtop_Hw14_3_2_DMA.h   -c -o Vtop_Hw14_3_2_DMA__ALLsup.o Vtop_Hw14_3_2_DMA__ALLsup.cpp
+ar -cr Vtop_Hw14_3_2_DMA__ALL.a Vtop_Hw14_3_2_DMA__ALLcls.o Vtop_Hw14_3_2_DMA__ALLsup.o
+ranlib Vtop_Hw14_3_2_DMA__ALL.a
+g++    top_Hw14_3_2_DMA-harness.o verilated.o verilated_vcd_c.o Vtop_Hw14_3_2_DMA__ALL.a    -o Vtop_Hw14_3_2_DMA -lm -lstdc++ 
+make: Leaving directory '/home/wewe5215/projects/lab14/memory-mapped-hardware/test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725'
+sim start on ACAL-WORKSPACE-MAIN at Sun Jun  9 17:43:55 2024
+inChannelName: 00029981.in
+outChannelName: 00029981.out
+cmdChannelName: 00029981.cmd
+STARTING test_run_dir/acal_lab14.topSystolicArray.top_14_3_2_DMA_Test656819725/Vtop_Hw14_3_2_DMA
+[[35minfo[0m] [0.016] SEED 1717926166773
+[[35minfo[0m] [0.104] [Cycle ]       1
+[[35minfo[0m] [0.105] [current_pc ]       0
+[[35minfo[0m] [0.106] [Inst] lui x08, 0x00000008      
+[[35minfo[0m] [0.107] ==============================
+[[35minfo[0m] [0.136] [Cycle ]       2
+[[35minfo[0m] [0.137] [current_pc ]       4
+[[35minfo[0m] [0.138] [Inst] addi x08, x08, 0x00000000
+[[35minfo[0m] [0.139] ==============================
+[[35minfo[0m] [0.147] [Cycle ]       3
+[[35minfo[0m] [0.149] [current_pc ]       8
+[[35minfo[0m] [0.150] [Inst] lui x09, 0x00000008      
+[[35minfo[0m] [0.152] ==============================
+[[35minfo[0m] [0.163] [Cycle ]       4
+[[35minfo[0m] [0.164] [current_pc ]      12
+[[35minfo[0m] [0.165] [Inst] addi x09, x09, 0x00000010
+[[35minfo[0m] [0.165] ==============================
+[[35minfo[0m] [0.173] [Cycle ]       5
+[[35minfo[0m] [0.175] [current_pc ]      16
+[[35minfo[0m] [0.177] [Inst] lui x18, 0x00000008      
+[[35minfo[0m] [0.178] ==============================
+[[35minfo[0m] [0.182] [Cycle ]       6
+[[35minfo[0m] [0.182] [current_pc ]      20
+[[35minfo[0m] [0.183] [Inst] addi x18, x18, 0x00000020
+[[35minfo[0m] [0.184] ==============================
+[[35minfo[0m] [0.190] [Cycle ]       7
+[[35minfo[0m] [0.191] [current_pc ]      24
+[[35minfo[0m] [0.191] [Inst] lui x19, 0x00000008      
+[[35minfo[0m] [0.192] ==============================
+[[35minfo[0m] [0.200] [Cycle ]       8
+[[35minfo[0m] [0.203] [current_pc ]      28
+[[35minfo[0m] [0.205] [Inst] addi x19, x19, 0x00000034
+[[35minfo[0m] [0.205] ==============================
+[[35minfo[0m] [0.214] [Cycle ]       9
+[[35minfo[0m] [0.215] [current_pc ]      32
+[[35minfo[0m] [0.216] [Inst] lw s3, 0(s3)             
+[[35minfo[0m] [0.217] ==============================
+[[35minfo[0m] [0.219] [Cycle ]      10
+[[35minfo[0m] [0.220] [current_pc ]      32
+[[35minfo[0m] [0.221] [Inst] lw s3, 0(s3)             
+[[35minfo[0m] [0.221] ==============================
+[[35minfo[0m] [0.227] [Cycle ]      11
+[[35minfo[0m] [0.228] [current_pc ]      32
+[[35minfo[0m] [0.229] [Inst] lw s3, 0(s3)             
+[[35minfo[0m] [0.230] ==============================
+[[35minfo[0m] [0.231] [Cycle ]      12
+[[35minfo[0m] [0.232] [current_pc ]      32
+[[35minfo[0m] [0.233] [Inst] lw s3, 0(s3)             
+[[35minfo[0m] [0.234] ==============================
+[[35minfo[0m] [0.249] [Cycle ]      13
+[[35minfo[0m] [0.250] [current_pc ]      32
+[[35minfo[0m] [0.250] [Inst] lw s3, 0(s3)             
+[[35minfo[0m] [0.251] ==============================
+[[35minfo[0m] [0.253] [Cycle ]      14
+[[35minfo[0m] [0.253] [current_pc ]      36
+[[35minfo[0m] [0.254] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.254] ==============================
+[[35minfo[0m] [0.256] [Cycle ]      15
+[[35minfo[0m] [0.256] [current_pc ]      40
+[[35minfo[0m] [0.256] [Inst] addi x31, x31, 0x00000038
+[[35minfo[0m] [0.257] ==============================
+[[35minfo[0m] [0.258] [Cycle ]      16
+[[35minfo[0m] [0.258] [current_pc ]      44
+[[35minfo[0m] [0.259] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.259] ==============================
+[[35minfo[0m] [0.261] [Cycle ]      17
+[[35minfo[0m] [0.261] [current_pc ]      44
+[[35minfo[0m] [0.261] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.262] ==============================
+[[35minfo[0m] [0.263] [Cycle ]      18
+[[35minfo[0m] [0.263] [current_pc ]      44
+[[35minfo[0m] [0.263] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.264] ==============================
+[[35minfo[0m] [0.265] [Cycle ]      19
+[[35minfo[0m] [0.266] [current_pc ]      44
+[[35minfo[0m] [0.266] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.266] ==============================
+[[35minfo[0m] [0.267] [Cycle ]      20
+[[35minfo[0m] [0.268] [current_pc ]      44
+[[35minfo[0m] [0.268] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.270] ==============================
+[[35minfo[0m] [0.276] [Cycle ]      21
+[[35minfo[0m] [0.277] [current_pc ]      48
+[[35minfo[0m] [0.278] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.278] ==============================
+[[35minfo[0m] [0.279] [Cycle ]      22
+[[35minfo[0m] [0.280] [current_pc ]      52
+[[35minfo[0m] [0.280] [Inst] addi x31, x31, 0x00000058
+[[35minfo[0m] [0.280] ==============================
+[[35minfo[0m] [0.281] [Cycle ]      23
+[[35minfo[0m] [0.281] [current_pc ]      56
+[[35minfo[0m] [0.282] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.282] ==============================
+[[35minfo[0m] [0.283] [Cycle ]      24
+[[35minfo[0m] [0.284] [current_pc ]      56
+[[35minfo[0m] [0.284] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.285] ==============================
+[[35minfo[0m] [0.286] [Cycle ]      25
+[[35minfo[0m] [0.286] [current_pc ]      56
+[[35minfo[0m] [0.287] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.287] ==============================
+[[35minfo[0m] [0.288] [Cycle ]      26
+[[35minfo[0m] [0.289] [current_pc ]      56
+[[35minfo[0m] [0.290] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.290] ==============================
+[[35minfo[0m] [0.293] [Cycle ]      27
+[[35minfo[0m] [0.294] [current_pc ]      56
+[[35minfo[0m] [0.294] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.295] ==============================
+[[35minfo[0m] [0.298] [Cycle ]      28
+[[35minfo[0m] [0.298] [current_pc ]      60
+[[35minfo[0m] [0.299] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.300] ==============================
+[[35minfo[0m] [0.306] [Cycle ]      29
+[[35minfo[0m] [0.308] [current_pc ]      64
+[[35minfo[0m] [0.309] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.309] ==============================
+[[35minfo[0m] [0.312] [Cycle ]      30
+[[35minfo[0m] [0.313] [current_pc ]      64
+[[35minfo[0m] [0.313] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.314] ==============================
+[[35minfo[0m] [0.317] [Cycle ]      31
+[[35minfo[0m] [0.317] [current_pc ]      64
+[[35minfo[0m] [0.318] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.318] ==============================
+[[35minfo[0m] [0.319] [Cycle ]      32
+[[35minfo[0m] [0.320] [current_pc ]      64
+[[35minfo[0m] [0.321] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.322] ==============================
+[[35minfo[0m] [0.325] [Cycle ]      33
+[[35minfo[0m] [0.326] [current_pc ]      64
+[[35minfo[0m] [0.326] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.327] ==============================
+[[35minfo[0m] [0.329] [Cycle ]      34
+[[35minfo[0m] [0.333] [current_pc ]      64
+[[35minfo[0m] [0.336] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.337] ==============================
+[[35minfo[0m] [0.344] [Cycle ]      35
+[[35minfo[0m] [0.345] [current_pc ]      64
+[[35minfo[0m] [0.345] [Inst] sw s0, 0(t1)             
+[[35minfo[0m] [0.346] ==============================
+[[35minfo[0m] [0.348] [Cycle ]      36
+[[35minfo[0m] [0.349] [current_pc ]      68
+[[35minfo[0m] [0.350] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.350] ==============================
+[[35minfo[0m] [0.353] [Cycle ]      37
+[[35minfo[0m] [0.354] [current_pc ]      72
+[[35minfo[0m] [0.354] [Inst] addi x31, x31, 0x0000005c
+[[35minfo[0m] [0.354] ==============================
+[[35minfo[0m] [0.355] [Cycle ]      38
+[[35minfo[0m] [0.355] [current_pc ]      76
+[[35minfo[0m] [0.356] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.356] ==============================
+[[35minfo[0m] [0.357] [Cycle ]      39
+[[35minfo[0m] [0.357] [current_pc ]      76
+[[35minfo[0m] [0.357] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.358] ==============================
+[[35minfo[0m] [0.359] [Cycle ]      40
+[[35minfo[0m] [0.359] [current_pc ]      76
+[[35minfo[0m] [0.360] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.360] ==============================
+[[35minfo[0m] [0.363] [Cycle ]      41
+[[35minfo[0m] [0.364] [current_pc ]      76
+[[35minfo[0m] [0.365] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.366] ==============================
+[[35minfo[0m] [0.368] [Cycle ]      42
+[[35minfo[0m] [0.369] [current_pc ]      76
+[[35minfo[0m] [0.370] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.370] ==============================
+[[35minfo[0m] [0.375] [Cycle ]      43
+[[35minfo[0m] [0.376] [current_pc ]      80
+[[35minfo[0m] [0.376] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.377] ==============================
+[[35minfo[0m] [0.382] [Cycle ]      44
+[[35minfo[0m] [0.383] [current_pc ]      84
+[[35minfo[0m] [0.383] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.383] ==============================
+[[35minfo[0m] [0.385] [Cycle ]      45
+[[35minfo[0m] [0.385] [current_pc ]      84
+[[35minfo[0m] [0.385] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.386] ==============================
+[[35minfo[0m] [0.387] [Cycle ]      46
+[[35minfo[0m] [0.387] [current_pc ]      84
+[[35minfo[0m] [0.388] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.389] ==============================
+[[35minfo[0m] [0.390] [Cycle ]      47
+[[35minfo[0m] [0.390] [current_pc ]      84
+[[35minfo[0m] [0.391] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.391] ==============================
+[[35minfo[0m] [0.392] [Cycle ]      48
+[[35minfo[0m] [0.392] [current_pc ]      84
+[[35minfo[0m] [0.392] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.393] ==============================
+[[35minfo[0m] [0.394] [Cycle ]      49
+[[35minfo[0m] [0.394] [current_pc ]      84
+[[35minfo[0m] [0.395] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.396] ==============================
+[[35minfo[0m] [0.400] [Cycle ]      50
+[[35minfo[0m] [0.403] [current_pc ]      84
+[[35minfo[0m] [0.404] [Inst] sw s3, 0(t1)             
+[[35minfo[0m] [0.404] ==============================
+[[35minfo[0m] [0.407] [Cycle ]      51
+[[35minfo[0m] [0.407] [current_pc ]      88
+[[35minfo[0m] [0.408] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.408] ==============================
+[[35minfo[0m] [0.410] [Cycle ]      52
+[[35minfo[0m] [0.411] [current_pc ]      92
+[[35minfo[0m] [0.413] [Inst] addi x31, x31, 0x00000060
+[[35minfo[0m] [0.413] ==============================
+[[35minfo[0m] [0.416] [Cycle ]      53
+[[35minfo[0m] [0.416] [current_pc ]      96
+[[35minfo[0m] [0.418] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.419] ==============================
+[[35minfo[0m] [0.420] [Cycle ]      54
+[[35minfo[0m] [0.420] [current_pc ]      96
+[[35minfo[0m] [0.421] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.422] ==============================
+[[35minfo[0m] [0.424] [Cycle ]      55
+[[35minfo[0m] [0.425] [current_pc ]      96
+[[35minfo[0m] [0.425] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.425] ==============================
+[[35minfo[0m] [0.426] [Cycle ]      56
+[[35minfo[0m] [0.427] [current_pc ]      96
+[[35minfo[0m] [0.427] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.427] ==============================
+[[35minfo[0m] [0.428] [Cycle ]      57
+[[35minfo[0m] [0.429] [current_pc ]      96
+[[35minfo[0m] [0.429] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.429] ==============================
+[[35minfo[0m] [0.430] [Cycle ]      58
+[[35minfo[0m] [0.431] [current_pc ]     100
+[[35minfo[0m] [0.431] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.432] ==============================
+[[35minfo[0m] [0.433] [Cycle ]      59
+[[35minfo[0m] [0.433] [current_pc ]     104
+[[35minfo[0m] [0.434] [Inst] lui x07, 0x00004040      
+[[35minfo[0m] [0.434] ==============================
+[[35minfo[0m] [0.437] [Cycle ]      60
+[[35minfo[0m] [0.438] [current_pc ]     108
+[[35minfo[0m] [0.438] [Inst] addi x07, x07, 0x00000404
+[[35minfo[0m] [0.439] ==============================
+[[35minfo[0m] [0.441] [Cycle ]      61
+[[35minfo[0m] [0.442] [current_pc ]     112
+[[35minfo[0m] [0.442] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.443] ==============================
+[[35minfo[0m] [0.445] [Cycle ]      62
+[[35minfo[0m] [0.445] [current_pc ]     112
+[[35minfo[0m] [0.446] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.446] ==============================
+[[35minfo[0m] [0.449] [Cycle ]      63
+[[35minfo[0m] [0.450] [current_pc ]     112
+[[35minfo[0m] [0.451] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.452] ==============================
+[[35minfo[0m] [0.454] [Cycle ]      64
+[[35minfo[0m] [0.455] [current_pc ]     112
+[[35minfo[0m] [0.459] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.462] ==============================
+[[35minfo[0m] [0.469] [Cycle ]      65
+[[35minfo[0m] [0.471] [current_pc ]     112
+[[35minfo[0m] [0.471] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.472] ==============================
+[[35minfo[0m] [0.474] [Cycle ]      66
+[[35minfo[0m] [0.475] [current_pc ]     112
+[[35minfo[0m] [0.476] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.478] ==============================
+[[35minfo[0m] [0.482] [Cycle ]      67
+[[35minfo[0m] [0.484] [current_pc ]     112
+[[35minfo[0m] [0.486] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.487] ==============================
+[[35minfo[0m] [0.490] [Cycle ]      68
+[[35minfo[0m] [0.490] [current_pc ]     116
+[[35minfo[0m] [0.491] [Inst] lui x06, 0x00000000      
+[[35minfo[0m] [0.491] ==============================
+[[35minfo[0m] [0.494] [Cycle ]      69
+[[35minfo[0m] [0.494] [current_pc ]     120
+[[35minfo[0m] [0.495] [Inst] addi x06, x06, 0x00000000
+[[35minfo[0m] [0.496] ==============================
+[[35minfo[0m] [0.499] [Cycle ]      70
+[[35minfo[0m] [0.500] [current_pc ]     124
+[[35minfo[0m] [0.501] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.501] ==============================
+[[35minfo[0m] [0.504] [Cycle ]      71
+[[35minfo[0m] [0.505] [current_pc ]     128
+[[35minfo[0m] [0.506] [Inst] lui x07, 0x00000000      
+[[35minfo[0m] [0.506] ==============================
+[[35minfo[0m] [0.509] [Cycle ]      72
+[[35minfo[0m] [0.511] [current_pc ]     132
+[[35minfo[0m] [0.511] [Inst] addi x07, x07, 0x00000001
+[[35minfo[0m] [0.512] ==============================
+[[35minfo[0m] [0.514] [Cycle ]      73
+[[35minfo[0m] [0.515] [current_pc ]     136
+[[35minfo[0m] [0.516] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.517] ==============================
+[[35minfo[0m] [0.520] [Cycle ]      74
+[[35minfo[0m] [0.520] [current_pc ]     136
+[[35minfo[0m] [0.522] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.522] ==============================
+[[35minfo[0m] [0.525] [Cycle ]      75
+[[35minfo[0m] [0.542] [current_pc ]     136
+[[35minfo[0m] [0.543] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.544] ==============================
+[[35minfo[0m] [0.546] [Cycle ]      76
+[[35minfo[0m] [0.549] [current_pc ]     136
+[[35minfo[0m] [0.551] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.551] ==============================
+[[35minfo[0m] [0.554] [Cycle ]      77
+[[35minfo[0m] [0.555] [current_pc ]     136
+[[35minfo[0m] [0.555] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.556] ==============================
+[[35minfo[0m] [0.559] [Cycle ]      78
+[[35minfo[0m] [0.559] [current_pc ]     136
+[[35minfo[0m] [0.561] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.561] ==============================
+[[35minfo[0m] [0.563] [Cycle ]      79
+[[35minfo[0m] [0.564] [current_pc ]     136
+[[35minfo[0m] [0.565] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.565] ==============================
+[[35minfo[0m] [0.568] [Cycle ]      80
+[[35minfo[0m] [0.568] [current_pc ]     140
+[[35minfo[0m] [0.569] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.569] ==============================
+[[35minfo[0m] [0.572] [Cycle ]      81
+[[35minfo[0m] [0.572] [current_pc ]     144
+[[35minfo[0m] [0.573] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.573] ==============================
+[[35minfo[0m] [0.576] [Cycle ]      82
+[[35minfo[0m] [0.577] [current_pc ]     148
+[[35minfo[0m] [0.578] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.578] ==============================
+[[35minfo[0m] [0.584] [Cycle ]      83
+[[35minfo[0m] [0.585] [current_pc ]     148
+[[35minfo[0m] [0.586] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.586] ==============================
+[[35minfo[0m] [0.589] [Cycle ]      84
+[[35minfo[0m] [0.590] [current_pc ]     148
+[[35minfo[0m] [0.590] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.591] ==============================
+[[35minfo[0m] [0.594] [Cycle ]      85
+[[35minfo[0m] [0.595] [current_pc ]     148
+[[35minfo[0m] [0.596] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.596] ==============================
+[[35minfo[0m] [0.601] [Cycle ]      86
+[[35minfo[0m] [0.602] [current_pc ]     148
+[[35minfo[0m] [0.602] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.603] ==============================
+[[35minfo[0m] [0.605] [Cycle ]      87
+[[35minfo[0m] [0.606] [current_pc ]     148
+[[35minfo[0m] [0.606] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.607] ==============================
+[[35minfo[0m] [0.611] [Cycle ]      88
+[[35minfo[0m] [0.612] [current_pc ]     152
+[[35minfo[0m] [0.612] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.613] ==============================
+[[35minfo[0m] [0.615] [Cycle ]      89
+[[35minfo[0m] [0.616] [current_pc ]     156
+[[35minfo[0m] [0.616] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.617] ==============================
+[[35minfo[0m] [0.619] [Cycle ]      90
+[[35minfo[0m] [0.619] [current_pc ]     156
+[[35minfo[0m] [0.620] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.621] ==============================
+[[35minfo[0m] [0.623] [Cycle ]      91
+[[35minfo[0m] [0.623] [current_pc ]     156
+[[35minfo[0m] [0.626] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.628] ==============================
+[[35minfo[0m] [0.631] [Cycle ]      92
+[[35minfo[0m] [0.631] [current_pc ]     156
+[[35minfo[0m] [0.632] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.632] ==============================
+[[35minfo[0m] [0.635] [Cycle ]      93
+[[35minfo[0m] [0.636] [current_pc ]     156
+[[35minfo[0m] [0.636] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.638] ==============================
+[[35minfo[0m] [0.639] [Cycle ]      94
+[[35minfo[0m] [0.639] [current_pc ]     160
+[[35minfo[0m] [0.640] [Inst] beq t2, x0, wait_dma1    
+[[35minfo[0m] [0.640] ==============================
+[[35minfo[0m] [0.642] [Cycle ]      95
+[[35minfo[0m] [0.642] [current_pc ]     140
+[[35minfo[0m] [0.643] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.643] ==============================
+[[35minfo[0m] [0.644] [Cycle ]      96
+[[35minfo[0m] [0.645] [current_pc ]     144
+[[35minfo[0m] [0.645] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.646] ==============================
+[[35minfo[0m] [0.647] [Cycle ]      97
+[[35minfo[0m] [0.648] [current_pc ]     148
+[[35minfo[0m] [0.648] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.650] ==============================
+[[35minfo[0m] [0.651] [Cycle ]      98
+[[35minfo[0m] [0.653] [current_pc ]     148
+[[35minfo[0m] [0.657] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.657] ==============================
+[[35minfo[0m] [0.660] [Cycle ]      99
+[[35minfo[0m] [0.661] [current_pc ]     148
+[[35minfo[0m] [0.663] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.663] ==============================
+[[35minfo[0m] [0.664] [Cycle ]     100
+[[35minfo[0m] [0.665] [current_pc ]     148
+[[35minfo[0m] [0.665] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.665] ==============================
+[[35minfo[0m] [0.666] [Cycle ]     101
+[[35minfo[0m] [0.667] [current_pc ]     148
+[[35minfo[0m] [0.667] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.667] ==============================
+[[35minfo[0m] [0.668] [Cycle ]     102
+[[35minfo[0m] [0.669] [current_pc ]     152
+[[35minfo[0m] [0.669] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.670] ==============================
+[[35minfo[0m] [0.672] [Cycle ]     103
+[[35minfo[0m] [0.673] [current_pc ]     156
+[[35minfo[0m] [0.673] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.674] ==============================
+[[35minfo[0m] [0.675] [Cycle ]     104
+[[35minfo[0m] [0.675] [current_pc ]     156
+[[35minfo[0m] [0.676] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.676] ==============================
+[[35minfo[0m] [0.678] [Cycle ]     105
+[[35minfo[0m] [0.679] [current_pc ]     156
+[[35minfo[0m] [0.679] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.680] ==============================
+[[35minfo[0m] [0.682] [Cycle ]     106
+[[35minfo[0m] [0.683] [current_pc ]     156
+[[35minfo[0m] [0.684] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.684] ==============================
+[[35minfo[0m] [0.687] [Cycle ]     107
+[[35minfo[0m] [0.687] [current_pc ]     156
+[[35minfo[0m] [0.688] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.688] ==============================
+[[35minfo[0m] [0.689] [Cycle ]     108
+[[35minfo[0m] [0.690] [current_pc ]     160
+[[35minfo[0m] [0.690] [Inst] beq t2, x0, wait_dma1    
+[[35minfo[0m] [0.691] ==============================
+[[35minfo[0m] [0.693] [Cycle ]     109
+[[35minfo[0m] [0.693] [current_pc ]     140
+[[35minfo[0m] [0.694] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.694] ==============================
+[[35minfo[0m] [0.696] [Cycle ]     110
+[[35minfo[0m] [0.697] [current_pc ]     144
+[[35minfo[0m] [0.697] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.698] ==============================
+[[35minfo[0m] [0.699] [Cycle ]     111
+[[35minfo[0m] [0.700] [current_pc ]     148
+[[35minfo[0m] [0.701] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.701] ==============================
+[[35minfo[0m] [0.703] [Cycle ]     112
+[[35minfo[0m] [0.703] [current_pc ]     148
+[[35minfo[0m] [0.704] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.704] ==============================
+[[35minfo[0m] [0.706] [Cycle ]     113
+[[35minfo[0m] [0.706] [current_pc ]     148
+[[35minfo[0m] [0.707] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.707] ==============================
+[[35minfo[0m] [0.709] [Cycle ]     114
+[[35minfo[0m] [0.709] [current_pc ]     148
+[[35minfo[0m] [0.710] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.710] ==============================
+[[35minfo[0m] [0.712] [Cycle ]     115
+[[35minfo[0m] [0.712] [current_pc ]     148
+[[35minfo[0m] [0.713] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.713] ==============================
+[[35minfo[0m] [0.715] [Cycle ]     116
+[[35minfo[0m] [0.715] [current_pc ]     152
+[[35minfo[0m] [0.716] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.716] ==============================
+[[35minfo[0m] [0.718] [Cycle ]     117
+[[35minfo[0m] [0.719] [current_pc ]     156
+[[35minfo[0m] [0.719] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.720] ==============================
+[[35minfo[0m] [0.721] [Cycle ]     118
+[[35minfo[0m] [0.722] [current_pc ]     156
+[[35minfo[0m] [0.722] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.723] ==============================
+[[35minfo[0m] [0.724] [Cycle ]     119
+[[35minfo[0m] [0.725] [current_pc ]     156
+[[35minfo[0m] [0.726] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.726] ==============================
+[[35minfo[0m] [0.728] [Cycle ]     120
+[[35minfo[0m] [0.728] [current_pc ]     156
+[[35minfo[0m] [0.729] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.729] ==============================
+[[35minfo[0m] [0.731] [Cycle ]     121
+[[35minfo[0m] [0.731] [current_pc ]     156
+[[35minfo[0m] [0.732] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.733] ==============================
+[[35minfo[0m] [0.734] [Cycle ]     122
+[[35minfo[0m] [0.735] [current_pc ]     160
+[[35minfo[0m] [0.735] [Inst] beq t2, x0, wait_dma1    
+[[35minfo[0m] [0.736] ==============================
+[[35minfo[0m] [0.737] [Cycle ]     123
+[[35minfo[0m] [0.738] [current_pc ]     140
+[[35minfo[0m] [0.738] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.739] ==============================
+[[35minfo[0m] [0.740] [Cycle ]     124
+[[35minfo[0m] [0.741] [current_pc ]     144
+[[35minfo[0m] [0.742] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.742] ==============================
+[[35minfo[0m] [0.744] [Cycle ]     125
+[[35minfo[0m] [0.745] [current_pc ]     148
+[[35minfo[0m] [0.745] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.746] ==============================
+[[35minfo[0m] [0.748] [Cycle ]     126
+[[35minfo[0m] [0.749] [current_pc ]     148
+[[35minfo[0m] [0.751] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.752] ==============================
+[[35minfo[0m] [0.757] [Cycle ]     127
+[[35minfo[0m] [0.758] [current_pc ]     148
+[[35minfo[0m] [0.759] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.759] ==============================
+[[35minfo[0m] [0.762] [Cycle ]     128
+[[35minfo[0m] [0.763] [current_pc ]     148
+[[35minfo[0m] [0.764] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.766] ==============================
+[[35minfo[0m] [0.775] [Cycle ]     129
+[[35minfo[0m] [0.777] [current_pc ]     148
+[[35minfo[0m] [0.778] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.779] ==============================
+[[35minfo[0m] [0.780] [Cycle ]     130
+[[35minfo[0m] [0.781] [current_pc ]     152
+[[35minfo[0m] [0.781] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.782] ==============================
+[[35minfo[0m] [0.783] [Cycle ]     131
+[[35minfo[0m] [0.784] [current_pc ]     156
+[[35minfo[0m] [0.785] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.785] ==============================
+[[35minfo[0m] [0.791] [Cycle ]     132
+[[35minfo[0m] [0.792] [current_pc ]     156
+[[35minfo[0m] [0.792] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.792] ==============================
+[[35minfo[0m] [0.794] [Cycle ]     133
+[[35minfo[0m] [0.795] [current_pc ]     156
+[[35minfo[0m] [0.795] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.796] ==============================
+[[35minfo[0m] [0.797] [Cycle ]     134
+[[35minfo[0m] [0.798] [current_pc ]     156
+[[35minfo[0m] [0.798] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.799] ==============================
+[[35minfo[0m] [0.800] [Cycle ]     135
+[[35minfo[0m] [0.801] [current_pc ]     156
+[[35minfo[0m] [0.801] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.802] ==============================
+[[35minfo[0m] [0.803] [Cycle ]     136
+[[35minfo[0m] [0.804] [current_pc ]     160
+[[35minfo[0m] [0.804] [Inst] beq t2, x0, wait_dma1    
+[[35minfo[0m] [0.805] ==============================
+[[35minfo[0m] [0.806] [Cycle ]     137
+[[35minfo[0m] [0.806] [current_pc ]     164
+[[35minfo[0m] [0.807] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.807] ==============================
+[[35minfo[0m] [0.809] [Cycle ]     138
+[[35minfo[0m] [0.809] [current_pc ]     164
+[[35minfo[0m] [0.810] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.810] ==============================
+[[35minfo[0m] [0.812] [Cycle ]     139
+[[35minfo[0m] [0.814] [current_pc ]     164
+[[35minfo[0m] [0.816] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.816] ==============================
+[[35minfo[0m] [0.817] [Cycle ]     140
+[[35minfo[0m] [0.817] [current_pc ]     164
+[[35minfo[0m] [0.818] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.818] ==============================
+[[35minfo[0m] [0.819] [Cycle ]     141
+[[35minfo[0m] [0.820] [current_pc ]     164
+[[35minfo[0m] [0.820] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.820] ==============================
+[[35minfo[0m] [0.821] [Cycle ]     142
+[[35minfo[0m] [0.822] [current_pc ]     164
+[[35minfo[0m] [0.822] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.822] ==============================
+[[35minfo[0m] [0.823] [Cycle ]     143
+[[35minfo[0m] [0.823] [current_pc ]     164
+[[35minfo[0m] [0.824] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [0.824] ==============================
+[[35minfo[0m] [0.825] [Cycle ]     144
+[[35minfo[0m] [0.825] [current_pc ]     168
+[[35minfo[0m] [0.825] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.826] ==============================
+[[35minfo[0m] [0.826] [Cycle ]     145
+[[35minfo[0m] [0.826] [current_pc ]     172
+[[35minfo[0m] [0.827] [Inst] addi x31, x31, 0x00000038
+[[35minfo[0m] [0.827] ==============================
+[[35minfo[0m] [0.828] [Cycle ]     146
+[[35minfo[0m] [0.828] [current_pc ]     176
+[[35minfo[0m] [0.828] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.828] ==============================
+[[35minfo[0m] [0.829] [Cycle ]     147
+[[35minfo[0m] [0.829] [current_pc ]     176
+[[35minfo[0m] [0.830] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.830] ==============================
+[[35minfo[0m] [0.830] [Cycle ]     148
+[[35minfo[0m] [0.831] [current_pc ]     176
+[[35minfo[0m] [0.831] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.831] ==============================
+[[35minfo[0m] [0.832] [Cycle ]     149
+[[35minfo[0m] [0.832] [current_pc ]     176
+[[35minfo[0m] [0.832] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.833] ==============================
+[[35minfo[0m] [0.833] [Cycle ]     150
+[[35minfo[0m] [0.833] [current_pc ]     176
+[[35minfo[0m] [0.834] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [0.834] ==============================
+[[35minfo[0m] [0.834] [Cycle ]     151
+[[35minfo[0m] [0.835] [current_pc ]     180
+[[35minfo[0m] [0.835] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.835] ==============================
+[[35minfo[0m] [0.837] [Cycle ]     152
+[[35minfo[0m] [0.839] [current_pc ]     184
+[[35minfo[0m] [0.840] [Inst] addi x31, x31, 0x00000058
+[[35minfo[0m] [0.841] ==============================
+[[35minfo[0m] [0.843] [Cycle ]     153
+[[35minfo[0m] [0.844] [current_pc ]     188
+[[35minfo[0m] [0.844] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.845] ==============================
+[[35minfo[0m] [0.846] [Cycle ]     154
+[[35minfo[0m] [0.846] [current_pc ]     188
+[[35minfo[0m] [0.847] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.847] ==============================
+[[35minfo[0m] [0.849] [Cycle ]     155
+[[35minfo[0m] [0.850] [current_pc ]     188
+[[35minfo[0m] [0.850] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.850] ==============================
+[[35minfo[0m] [0.851] [Cycle ]     156
+[[35minfo[0m] [0.852] [current_pc ]     188
+[[35minfo[0m] [0.852] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.852] ==============================
+[[35minfo[0m] [0.853] [Cycle ]     157
+[[35minfo[0m] [0.853] [current_pc ]     188
+[[35minfo[0m] [0.854] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.854] ==============================
+[[35minfo[0m] [0.855] [Cycle ]     158
+[[35minfo[0m] [0.855] [current_pc ]     192
+[[35minfo[0m] [0.856] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.856] ==============================
+[[35minfo[0m] [0.856] [Cycle ]     159
+[[35minfo[0m] [0.857] [current_pc ]     196
+[[35minfo[0m] [0.857] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.857] ==============================
+[[35minfo[0m] [0.858] [Cycle ]     160
+[[35minfo[0m] [0.858] [current_pc ]     196
+[[35minfo[0m] [0.859] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.860] ==============================
+[[35minfo[0m] [0.861] [Cycle ]     161
+[[35minfo[0m] [0.862] [current_pc ]     196
+[[35minfo[0m] [0.862] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.862] ==============================
+[[35minfo[0m] [0.865] [Cycle ]     162
+[[35minfo[0m] [0.866] [current_pc ]     196
+[[35minfo[0m] [0.867] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.868] ==============================
+[[35minfo[0m] [0.869] [Cycle ]     163
+[[35minfo[0m] [0.869] [current_pc ]     196
+[[35minfo[0m] [0.869] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.869] ==============================
+[[35minfo[0m] [0.870] [Cycle ]     164
+[[35minfo[0m] [0.871] [current_pc ]     196
+[[35minfo[0m] [0.871] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.871] ==============================
+[[35minfo[0m] [0.872] [Cycle ]     165
+[[35minfo[0m] [0.872] [current_pc ]     196
+[[35minfo[0m] [0.873] [Inst] sw s1, 0(t1)             
+[[35minfo[0m] [0.873] ==============================
+[[35minfo[0m] [0.874] [Cycle ]     166
+[[35minfo[0m] [0.874] [current_pc ]     200
+[[35minfo[0m] [0.874] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.874] ==============================
+[[35minfo[0m] [0.875] [Cycle ]     167
+[[35minfo[0m] [0.875] [current_pc ]     204
+[[35minfo[0m] [0.876] [Inst] addi x31, x31, 0x0000005c
+[[35minfo[0m] [0.876] ==============================
+[[35minfo[0m] [0.876] [Cycle ]     168
+[[35minfo[0m] [0.877] [current_pc ]     208
+[[35minfo[0m] [0.877] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.878] ==============================
+[[35minfo[0m] [0.879] [Cycle ]     169
+[[35minfo[0m] [0.880] [current_pc ]     208
+[[35minfo[0m] [0.880] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.881] ==============================
+[[35minfo[0m] [0.882] [Cycle ]     170
+[[35minfo[0m] [0.883] [current_pc ]     208
+[[35minfo[0m] [0.884] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.884] ==============================
+[[35minfo[0m] [0.885] [Cycle ]     171
+[[35minfo[0m] [0.885] [current_pc ]     208
+[[35minfo[0m] [0.886] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.886] ==============================
+[[35minfo[0m] [0.888] [Cycle ]     172
+[[35minfo[0m] [0.888] [current_pc ]     208
+[[35minfo[0m] [0.889] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.889] ==============================
+[[35minfo[0m] [0.890] [Cycle ]     173
+[[35minfo[0m] [0.890] [current_pc ]     212
+[[35minfo[0m] [0.891] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.891] ==============================
+[[35minfo[0m] [0.892] [Cycle ]     174
+[[35minfo[0m] [0.892] [current_pc ]     216
+[[35minfo[0m] [0.892] [Inst] addi t2, s3, 0x10        
+[[35minfo[0m] [0.893] ==============================
+[[35minfo[0m] [0.894] [Cycle ]     175
+[[35minfo[0m] [0.894] [current_pc ]     220
+[[35minfo[0m] [0.894] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.895] ==============================
+[[35minfo[0m] [0.896] [Cycle ]     176
+[[35minfo[0m] [0.896] [current_pc ]     220
+[[35minfo[0m] [0.896] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.896] ==============================
+[[35minfo[0m] [0.897] [Cycle ]     177
+[[35minfo[0m] [0.897] [current_pc ]     220
+[[35minfo[0m] [0.897] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.898] ==============================
+[[35minfo[0m] [0.898] [Cycle ]     178
+[[35minfo[0m] [0.898] [current_pc ]     220
+[[35minfo[0m] [0.899] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.899] ==============================
+[[35minfo[0m] [0.899] [Cycle ]     179
+[[35minfo[0m] [0.900] [current_pc ]     220
+[[35minfo[0m] [0.900] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.900] ==============================
+[[35minfo[0m] [0.901] [Cycle ]     180
+[[35minfo[0m] [0.902] [current_pc ]     220
+[[35minfo[0m] [0.902] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.902] ==============================
+[[35minfo[0m] [0.904] [Cycle ]     181
+[[35minfo[0m] [0.905] [current_pc ]     220
+[[35minfo[0m] [0.905] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.905] ==============================
+[[35minfo[0m] [0.907] [Cycle ]     182
+[[35minfo[0m] [0.907] [current_pc ]     224
+[[35minfo[0m] [0.908] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.908] ==============================
+[[35minfo[0m] [0.908] [Cycle ]     183
+[[35minfo[0m] [0.909] [current_pc ]     228
+[[35minfo[0m] [0.909] [Inst] addi x31, x31, 0x00000060
+[[35minfo[0m] [0.910] ==============================
+[[35minfo[0m] [0.911] [Cycle ]     184
+[[35minfo[0m] [0.912] [current_pc ]     232
+[[35minfo[0m] [0.912] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.913] ==============================
+[[35minfo[0m] [0.914] [Cycle ]     185
+[[35minfo[0m] [0.915] [current_pc ]     232
+[[35minfo[0m] [0.915] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.915] ==============================
+[[35minfo[0m] [0.917] [Cycle ]     186
+[[35minfo[0m] [0.917] [current_pc ]     232
+[[35minfo[0m] [0.918] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.918] ==============================
+[[35minfo[0m] [0.919] [Cycle ]     187
+[[35minfo[0m] [0.919] [current_pc ]     232
+[[35minfo[0m] [0.919] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.919] ==============================
+[[35minfo[0m] [0.920] [Cycle ]     188
+[[35minfo[0m] [0.920] [current_pc ]     232
+[[35minfo[0m] [0.921] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.921] ==============================
+[[35minfo[0m] [0.923] [Cycle ]     189
+[[35minfo[0m] [0.923] [current_pc ]     236
+[[35minfo[0m] [0.924] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.924] ==============================
+[[35minfo[0m] [0.925] [Cycle ]     190
+[[35minfo[0m] [0.926] [current_pc ]     240
+[[35minfo[0m] [0.926] [Inst] lui x07, 0x00004040      
+[[35minfo[0m] [0.926] ==============================
+[[35minfo[0m] [0.928] [Cycle ]     191
+[[35minfo[0m] [0.929] [current_pc ]     244
+[[35minfo[0m] [0.929] [Inst] addi x07, x07, 0x00000404
+[[35minfo[0m] [0.931] ==============================
+[[35minfo[0m] [0.932] [Cycle ]     192
+[[35minfo[0m] [0.933] [current_pc ]     248
+[[35minfo[0m] [0.933] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.934] ==============================
+[[35minfo[0m] [0.935] [Cycle ]     193
+[[35minfo[0m] [0.936] [current_pc ]     248
+[[35minfo[0m] [0.936] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.937] ==============================
+[[35minfo[0m] [0.938] [Cycle ]     194
+[[35minfo[0m] [0.939] [current_pc ]     248
+[[35minfo[0m] [0.939] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.940] ==============================
+[[35minfo[0m] [0.942] [Cycle ]     195
+[[35minfo[0m] [0.943] [current_pc ]     248
+[[35minfo[0m] [0.944] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.944] ==============================
+[[35minfo[0m] [0.945] [Cycle ]     196
+[[35minfo[0m] [0.945] [current_pc ]     248
+[[35minfo[0m] [0.945] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.945] ==============================
+[[35minfo[0m] [0.946] [Cycle ]     197
+[[35minfo[0m] [0.946] [current_pc ]     248
+[[35minfo[0m] [0.946] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.946] ==============================
+[[35minfo[0m] [0.947] [Cycle ]     198
+[[35minfo[0m] [0.947] [current_pc ]     248
+[[35minfo[0m] [0.947] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.947] ==============================
+[[35minfo[0m] [0.948] [Cycle ]     199
+[[35minfo[0m] [0.948] [current_pc ]     252
+[[35minfo[0m] [0.948] [Inst] lui x06, 0x00000000      
+[[35minfo[0m] [0.948] ==============================
+[[35minfo[0m] [0.949] [Cycle ]     200
+[[35minfo[0m] [0.949] [current_pc ]     256
+[[35minfo[0m] [0.949] [Inst] addi x06, x06, 0x00000000
+[[35minfo[0m] [0.949] ==============================
+[[35minfo[0m] [0.950] [Cycle ]     201
+[[35minfo[0m] [0.950] [current_pc ]     260
+[[35minfo[0m] [0.951] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.951] ==============================
+[[35minfo[0m] [0.951] [Cycle ]     202
+[[35minfo[0m] [0.952] [current_pc ]     264
+[[35minfo[0m] [0.952] [Inst] lui x07, 0x00000000      
+[[35minfo[0m] [0.952] ==============================
+[[35minfo[0m] [0.953] [Cycle ]     203
+[[35minfo[0m] [0.953] [current_pc ]     268
+[[35minfo[0m] [0.953] [Inst] addi x07, x07, 0x00000001
+[[35minfo[0m] [0.953] ==============================
+[[35minfo[0m] [0.954] [Cycle ]     204
+[[35minfo[0m] [0.954] [current_pc ]     272
+[[35minfo[0m] [0.954] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.954] ==============================
+[[35minfo[0m] [0.955] [Cycle ]     205
+[[35minfo[0m] [0.955] [current_pc ]     272
+[[35minfo[0m] [0.955] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.955] ==============================
+[[35minfo[0m] [0.956] [Cycle ]     206
+[[35minfo[0m] [0.956] [current_pc ]     272
+[[35minfo[0m] [0.956] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.956] ==============================
+[[35minfo[0m] [0.957] [Cycle ]     207
+[[35minfo[0m] [0.957] [current_pc ]     272
+[[35minfo[0m] [0.957] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.957] ==============================
+[[35minfo[0m] [0.958] [Cycle ]     208
+[[35minfo[0m] [0.958] [current_pc ]     272
+[[35minfo[0m] [0.958] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.959] ==============================
+[[35minfo[0m] [0.959] [Cycle ]     209
+[[35minfo[0m] [0.959] [current_pc ]     272
+[[35minfo[0m] [0.959] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.960] ==============================
+[[35minfo[0m] [0.960] [Cycle ]     210
+[[35minfo[0m] [0.960] [current_pc ]     272
+[[35minfo[0m] [0.961] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [0.961] ==============================
+[[35minfo[0m] [0.961] [Cycle ]     211
+[[35minfo[0m] [0.962] [current_pc ]     276
+[[35minfo[0m] [0.962] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.962] ==============================
+[[35minfo[0m] [0.963] [Cycle ]     212
+[[35minfo[0m] [0.963] [current_pc ]     280
+[[35minfo[0m] [0.963] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.963] ==============================
+[[35minfo[0m] [0.964] [Cycle ]     213
+[[35minfo[0m] [0.964] [current_pc ]     284
+[[35minfo[0m] [0.964] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.965] ==============================
+[[35minfo[0m] [0.965] [Cycle ]     214
+[[35minfo[0m] [0.966] [current_pc ]     284
+[[35minfo[0m] [0.966] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.966] ==============================
+[[35minfo[0m] [0.968] [Cycle ]     215
+[[35minfo[0m] [0.968] [current_pc ]     284
+[[35minfo[0m] [0.968] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.968] ==============================
+[[35minfo[0m] [0.969] [Cycle ]     216
+[[35minfo[0m] [0.970] [current_pc ]     284
+[[35minfo[0m] [0.970] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.970] ==============================
+[[35minfo[0m] [0.971] [Cycle ]     217
+[[35minfo[0m] [0.971] [current_pc ]     284
+[[35minfo[0m] [0.971] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.971] ==============================
+[[35minfo[0m] [0.972] [Cycle ]     218
+[[35minfo[0m] [0.972] [current_pc ]     284
+[[35minfo[0m] [0.972] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.973] ==============================
+[[35minfo[0m] [0.973] [Cycle ]     219
+[[35minfo[0m] [0.973] [current_pc ]     288
+[[35minfo[0m] [0.973] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.974] ==============================
+[[35minfo[0m] [0.974] [Cycle ]     220
+[[35minfo[0m] [0.974] [current_pc ]     292
+[[35minfo[0m] [0.974] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.975] ==============================
+[[35minfo[0m] [0.975] [Cycle ]     221
+[[35minfo[0m] [0.975] [current_pc ]     292
+[[35minfo[0m] [0.975] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.976] ==============================
+[[35minfo[0m] [0.976] [Cycle ]     222
+[[35minfo[0m] [0.976] [current_pc ]     292
+[[35minfo[0m] [0.977] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.977] ==============================
+[[35minfo[0m] [0.977] [Cycle ]     223
+[[35minfo[0m] [0.977] [current_pc ]     292
+[[35minfo[0m] [0.978] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.978] ==============================
+[[35minfo[0m] [0.978] [Cycle ]     224
+[[35minfo[0m] [0.978] [current_pc ]     292
+[[35minfo[0m] [0.979] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.979] ==============================
+[[35minfo[0m] [0.979] [Cycle ]     225
+[[35minfo[0m] [0.979] [current_pc ]     296
+[[35minfo[0m] [0.980] [Inst] beq t2, x0, wait_dma2    
+[[35minfo[0m] [0.980] ==============================
+[[35minfo[0m] [0.980] [Cycle ]     226
+[[35minfo[0m] [0.980] [current_pc ]     276
+[[35minfo[0m] [0.981] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [0.981] ==============================
+[[35minfo[0m] [0.981] [Cycle ]     227
+[[35minfo[0m] [0.982] [current_pc ]     280
+[[35minfo[0m] [0.982] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [0.982] ==============================
+[[35minfo[0m] [0.983] [Cycle ]     228
+[[35minfo[0m] [0.983] [current_pc ]     284
+[[35minfo[0m] [0.983] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.983] ==============================
+[[35minfo[0m] [0.984] [Cycle ]     229
+[[35minfo[0m] [0.984] [current_pc ]     284
+[[35minfo[0m] [0.984] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.984] ==============================
+[[35minfo[0m] [0.985] [Cycle ]     230
+[[35minfo[0m] [0.985] [current_pc ]     284
+[[35minfo[0m] [0.985] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.986] ==============================
+[[35minfo[0m] [0.986] [Cycle ]     231
+[[35minfo[0m] [0.986] [current_pc ]     284
+[[35minfo[0m] [0.987] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.987] ==============================
+[[35minfo[0m] [0.987] [Cycle ]     232
+[[35minfo[0m] [0.988] [current_pc ]     284
+[[35minfo[0m] [0.988] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [0.988] ==============================
+[[35minfo[0m] [0.989] [Cycle ]     233
+[[35minfo[0m] [0.989] [current_pc ]     288
+[[35minfo[0m] [0.989] [Inst] add t1, t1, t0           
+[[35minfo[0m] [0.989] ==============================
+[[35minfo[0m] [0.991] [Cycle ]     234
+[[35minfo[0m] [0.992] [current_pc ]     292
+[[35minfo[0m] [0.992] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.993] ==============================
+[[35minfo[0m] [0.993] [Cycle ]     235
+[[35minfo[0m] [0.994] [current_pc ]     292
+[[35minfo[0m] [0.994] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.995] ==============================
+[[35minfo[0m] [0.997] [Cycle ]     236
+[[35minfo[0m] [0.997] [current_pc ]     292
+[[35minfo[0m] [0.998] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [0.999] ==============================
+[[35minfo[0m] [1.000] [Cycle ]     237
+[[35minfo[0m] [1.002] [current_pc ]     292
+[[35minfo[0m] [1.004] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.004] ==============================
+[[35minfo[0m] [1.005] [Cycle ]     238
+[[35minfo[0m] [1.006] [current_pc ]     292
+[[35minfo[0m] [1.007] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.007] ==============================
+[[35minfo[0m] [1.009] [Cycle ]     239
+[[35minfo[0m] [1.010] [current_pc ]     296
+[[35minfo[0m] [1.011] [Inst] beq t2, x0, wait_dma2    
+[[35minfo[0m] [1.011] ==============================
+[[35minfo[0m] [1.012] [Cycle ]     240
+[[35minfo[0m] [1.013] [current_pc ]     276
+[[35minfo[0m] [1.013] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.014] ==============================
+[[35minfo[0m] [1.014] [Cycle ]     241
+[[35minfo[0m] [1.014] [current_pc ]     280
+[[35minfo[0m] [1.015] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [1.015] ==============================
+[[35minfo[0m] [1.015] [Cycle ]     242
+[[35minfo[0m] [1.016] [current_pc ]     284
+[[35minfo[0m] [1.016] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.017] ==============================
+[[35minfo[0m] [1.017] [Cycle ]     243
+[[35minfo[0m] [1.018] [current_pc ]     284
+[[35minfo[0m] [1.018] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.018] ==============================
+[[35minfo[0m] [1.018] [Cycle ]     244
+[[35minfo[0m] [1.019] [current_pc ]     284
+[[35minfo[0m] [1.019] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.019] ==============================
+[[35minfo[0m] [1.020] [Cycle ]     245
+[[35minfo[0m] [1.020] [current_pc ]     284
+[[35minfo[0m] [1.020] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.020] ==============================
+[[35minfo[0m] [1.021] [Cycle ]     246
+[[35minfo[0m] [1.021] [current_pc ]     284
+[[35minfo[0m] [1.021] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.021] ==============================
+[[35minfo[0m] [1.022] [Cycle ]     247
+[[35minfo[0m] [1.022] [current_pc ]     288
+[[35minfo[0m] [1.022] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.022] ==============================
+[[35minfo[0m] [1.023] [Cycle ]     248
+[[35minfo[0m] [1.023] [current_pc ]     292
+[[35minfo[0m] [1.023] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.023] ==============================
+[[35minfo[0m] [1.024] [Cycle ]     249
+[[35minfo[0m] [1.024] [current_pc ]     292
+[[35minfo[0m] [1.024] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.024] ==============================
+[[35minfo[0m] [1.025] [Cycle ]     250
+[[35minfo[0m] [1.025] [current_pc ]     292
+[[35minfo[0m] [1.025] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.025] ==============================
+[[35minfo[0m] [1.026] [Cycle ]     251
+[[35minfo[0m] [1.026] [current_pc ]     292
+[[35minfo[0m] [1.026] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.026] ==============================
+[[35minfo[0m] [1.027] [Cycle ]     252
+[[35minfo[0m] [1.027] [current_pc ]     292
+[[35minfo[0m] [1.027] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.028] ==============================
+[[35minfo[0m] [1.028] [Cycle ]     253
+[[35minfo[0m] [1.028] [current_pc ]     296
+[[35minfo[0m] [1.028] [Inst] beq t2, x0, wait_dma2    
+[[35minfo[0m] [1.029] ==============================
+[[35minfo[0m] [1.029] [Cycle ]     254
+[[35minfo[0m] [1.029] [current_pc ]     276
+[[35minfo[0m] [1.029] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.030] ==============================
+[[35minfo[0m] [1.030] [Cycle ]     255
+[[35minfo[0m] [1.030] [current_pc ]     280
+[[35minfo[0m] [1.031] [Inst] addi x31, x31, 0x00000064
+[[35minfo[0m] [1.031] ==============================
+[[35minfo[0m] [1.031] [Cycle ]     256
+[[35minfo[0m] [1.032] [current_pc ]     284
+[[35minfo[0m] [1.032] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.032] ==============================
+[[35minfo[0m] [1.033] [Cycle ]     257
+[[35minfo[0m] [1.033] [current_pc ]     284
+[[35minfo[0m] [1.033] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.034] ==============================
+[[35minfo[0m] [1.034] [Cycle ]     258
+[[35minfo[0m] [1.034] [current_pc ]     284
+[[35minfo[0m] [1.035] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.035] ==============================
+[[35minfo[0m] [1.036] [Cycle ]     259
+[[35minfo[0m] [1.036] [current_pc ]     284
+[[35minfo[0m] [1.036] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.036] ==============================
+[[35minfo[0m] [1.037] [Cycle ]     260
+[[35minfo[0m] [1.037] [current_pc ]     284
+[[35minfo[0m] [1.037] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.038] ==============================
+[[35minfo[0m] [1.038] [Cycle ]     261
+[[35minfo[0m] [1.039] [current_pc ]     288
+[[35minfo[0m] [1.039] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.039] ==============================
+[[35minfo[0m] [1.040] [Cycle ]     262
+[[35minfo[0m] [1.040] [current_pc ]     292
+[[35minfo[0m] [1.040] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.040] ==============================
+[[35minfo[0m] [1.041] [Cycle ]     263
+[[35minfo[0m] [1.041] [current_pc ]     292
+[[35minfo[0m] [1.041] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.041] ==============================
+[[35minfo[0m] [1.042] [Cycle ]     264
+[[35minfo[0m] [1.042] [current_pc ]     292
+[[35minfo[0m] [1.042] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.042] ==============================
+[[35minfo[0m] [1.043] [Cycle ]     265
+[[35minfo[0m] [1.043] [current_pc ]     292
+[[35minfo[0m] [1.043] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.044] ==============================
+[[35minfo[0m] [1.044] [Cycle ]     266
+[[35minfo[0m] [1.044] [current_pc ]     292
+[[35minfo[0m] [1.044] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.045] ==============================
+[[35minfo[0m] [1.045] [Cycle ]     267
+[[35minfo[0m] [1.045] [current_pc ]     296
+[[35minfo[0m] [1.045] [Inst] beq t2, x0, wait_dma2    
+[[35minfo[0m] [1.046] ==============================
+[[35minfo[0m] [1.046] [Cycle ]     268
+[[35minfo[0m] [1.046] [current_pc ]     300
+[[35minfo[0m] [1.046] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.047] ==============================
+[[35minfo[0m] [1.047] [Cycle ]     269
+[[35minfo[0m] [1.047] [current_pc ]     300
+[[35minfo[0m] [1.048] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.048] ==============================
+[[35minfo[0m] [1.048] [Cycle ]     270
+[[35minfo[0m] [1.048] [current_pc ]     300
+[[35minfo[0m] [1.049] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.049] ==============================
+[[35minfo[0m] [1.049] [Cycle ]     271
+[[35minfo[0m] [1.050] [current_pc ]     300
+[[35minfo[0m] [1.050] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.050] ==============================
+[[35minfo[0m] [1.051] [Cycle ]     272
+[[35minfo[0m] [1.051] [current_pc ]     300
+[[35minfo[0m] [1.051] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.051] ==============================
+[[35minfo[0m] [1.052] [Cycle ]     273
+[[35minfo[0m] [1.052] [current_pc ]     300
+[[35minfo[0m] [1.052] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.052] ==============================
+[[35minfo[0m] [1.053] [Cycle ]     274
+[[35minfo[0m] [1.053] [current_pc ]     300
+[[35minfo[0m] [1.053] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.053] ==============================
+[[35minfo[0m] [1.054] [Cycle ]     275
+[[35minfo[0m] [1.054] [current_pc ]     304
+[[35minfo[0m] [1.054] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.054] ==============================
+[[35minfo[0m] [1.055] [Cycle ]     276
+[[35minfo[0m] [1.055] [current_pc ]     308
+[[35minfo[0m] [1.055] [Inst] addi x31, x31, 0x00000030
+[[35minfo[0m] [1.055] ==============================
+[[35minfo[0m] [1.056] [Cycle ]     277
+[[35minfo[0m] [1.056] [current_pc ]     312
+[[35minfo[0m] [1.056] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [1.056] ==============================
+[[35minfo[0m] [1.057] [Cycle ]     278
+[[35minfo[0m] [1.057] [current_pc ]     312
+[[35minfo[0m] [1.057] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [1.057] ==============================
+[[35minfo[0m] [1.058] [Cycle ]     279
+[[35minfo[0m] [1.058] [current_pc ]     312
+[[35minfo[0m] [1.058] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [1.058] ==============================
+[[35minfo[0m] [1.059] [Cycle ]     280
+[[35minfo[0m] [1.059] [current_pc ]     312
+[[35minfo[0m] [1.059] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [1.059] ==============================
+[[35minfo[0m] [1.060] [Cycle ]     281
+[[35minfo[0m] [1.060] [current_pc ]     312
+[[35minfo[0m] [1.060] [Inst] lw t0, 0(t6)             
+[[35minfo[0m] [1.060] ==============================
+[[35minfo[0m] [1.061] [Cycle ]     282
+[[35minfo[0m] [1.061] [current_pc ]     316
+[[35minfo[0m] [1.061] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.061] ==============================
+[[35minfo[0m] [1.062] [Cycle ]     283
+[[35minfo[0m] [1.062] [current_pc ]     320
+[[35minfo[0m] [1.062] [Inst] addi x31, x31, 0x00000044
+[[35minfo[0m] [1.062] ==============================
+[[35minfo[0m] [1.063] [Cycle ]     284
+[[35minfo[0m] [1.063] [current_pc ]     324
+[[35minfo[0m] [1.063] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.063] ==============================
+[[35minfo[0m] [1.064] [Cycle ]     285
+[[35minfo[0m] [1.064] [current_pc ]     324
+[[35minfo[0m] [1.064] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.064] ==============================
+[[35minfo[0m] [1.065] [Cycle ]     286
+[[35minfo[0m] [1.065] [current_pc ]     324
+[[35minfo[0m] [1.065] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.065] ==============================
+[[35minfo[0m] [1.066] [Cycle ]     287
+[[35minfo[0m] [1.066] [current_pc ]     324
+[[35minfo[0m] [1.066] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.066] ==============================
+[[35minfo[0m] [1.067] [Cycle ]     288
+[[35minfo[0m] [1.067] [current_pc ]     324
+[[35minfo[0m] [1.067] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.067] ==============================
+[[35minfo[0m] [1.068] [Cycle ]     289
+[[35minfo[0m] [1.068] [current_pc ]     328
+[[35minfo[0m] [1.068] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.068] ==============================
+[[35minfo[0m] [1.069] [Cycle ]     290
+[[35minfo[0m] [1.069] [current_pc ]     332
+[[35minfo[0m] [1.069] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.069] ==============================
+[[35minfo[0m] [1.070] [Cycle ]     291
+[[35minfo[0m] [1.070] [current_pc ]     332
+[[35minfo[0m] [1.070] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.071] ==============================
+[[35minfo[0m] [1.071] [Cycle ]     292
+[[35minfo[0m] [1.071] [current_pc ]     332
+[[35minfo[0m] [1.071] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.072] ==============================
+[[35minfo[0m] [1.072] [Cycle ]     293
+[[35minfo[0m] [1.073] [current_pc ]     332
+[[35minfo[0m] [1.073] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.073] ==============================
+[[35minfo[0m] [1.073] [Cycle ]     294
+[[35minfo[0m] [1.074] [current_pc ]     332
+[[35minfo[0m] [1.074] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.074] ==============================
+[[35minfo[0m] [1.075] [Cycle ]     295
+[[35minfo[0m] [1.075] [current_pc ]     332
+[[35minfo[0m] [1.075] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.075] ==============================
+[[35minfo[0m] [1.076] [Cycle ]     296
+[[35minfo[0m] [1.076] [current_pc ]     332
+[[35minfo[0m] [1.076] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.076] ==============================
+[[35minfo[0m] [1.077] [Cycle ]     297
+[[35minfo[0m] [1.077] [current_pc ]     336
+[[35minfo[0m] [1.077] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.077] ==============================
+[[35minfo[0m] [1.078] [Cycle ]     298
+[[35minfo[0m] [1.078] [current_pc ]     340
+[[35minfo[0m] [1.078] [Inst] addi x31, x31, 0x00000048
+[[35minfo[0m] [1.078] ==============================
+[[35minfo[0m] [1.079] [Cycle ]     299
+[[35minfo[0m] [1.079] [current_pc ]     344
+[[35minfo[0m] [1.079] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.080] ==============================
+[[35minfo[0m] [1.080] [Cycle ]     300
+[[35minfo[0m] [1.080] [current_pc ]     344
+[[35minfo[0m] [1.081] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.081] ==============================
+[[35minfo[0m] [1.081] [Cycle ]     301
+[[35minfo[0m] [1.081] [current_pc ]     344
+[[35minfo[0m] [1.082] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.082] ==============================
+[[35minfo[0m] [1.082] [Cycle ]     302
+[[35minfo[0m] [1.082] [current_pc ]     344
+[[35minfo[0m] [1.083] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.083] ==============================
+[[35minfo[0m] [1.084] [Cycle ]     303
+[[35minfo[0m] [1.084] [current_pc ]     344
+[[35minfo[0m] [1.085] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.085] ==============================
+[[35minfo[0m] [1.086] [Cycle ]     304
+[[35minfo[0m] [1.086] [current_pc ]     348
+[[35minfo[0m] [1.087] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.087] ==============================
+[[35minfo[0m] [1.087] [Cycle ]     305
+[[35minfo[0m] [1.088] [current_pc ]     352
+[[35minfo[0m] [1.088] [Inst] lui x07, 0x00000000      
+[[35minfo[0m] [1.088] ==============================
+[[35minfo[0m] [1.088] [Cycle ]     306
+[[35minfo[0m] [1.089] [current_pc ]     356
+[[35minfo[0m] [1.089] [Inst] addi x07, x07, 0x00000010
+[[35minfo[0m] [1.089] ==============================
+[[35minfo[0m] [1.089] [Cycle ]     307
+[[35minfo[0m] [1.090] [current_pc ]     360
+[[35minfo[0m] [1.090] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.090] ==============================
+[[35minfo[0m] [1.090] [Cycle ]     308
+[[35minfo[0m] [1.091] [current_pc ]     360
+[[35minfo[0m] [1.091] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.091] ==============================
+[[35minfo[0m] [1.092] [Cycle ]     309
+[[35minfo[0m] [1.092] [current_pc ]     360
+[[35minfo[0m] [1.093] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.093] ==============================
+[[35minfo[0m] [1.095] [Cycle ]     310
+[[35minfo[0m] [1.095] [current_pc ]     360
+[[35minfo[0m] [1.096] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.096] ==============================
+[[35minfo[0m] [1.097] [Cycle ]     311
+[[35minfo[0m] [1.098] [current_pc ]     360
+[[35minfo[0m] [1.098] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.098] ==============================
+[[35minfo[0m] [1.099] [Cycle ]     312
+[[35minfo[0m] [1.100] [current_pc ]     360
+[[35minfo[0m] [1.100] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.100] ==============================
+[[35minfo[0m] [1.101] [Cycle ]     313
+[[35minfo[0m] [1.101] [current_pc ]     360
+[[35minfo[0m] [1.101] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.102] ==============================
+[[35minfo[0m] [1.102] [Cycle ]     314
+[[35minfo[0m] [1.102] [current_pc ]     364
+[[35minfo[0m] [1.103] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.103] ==============================
+[[35minfo[0m] [1.103] [Cycle ]     315
+[[35minfo[0m] [1.104] [current_pc ]     368
+[[35minfo[0m] [1.104] [Inst] addi x31, x31, 0x0000004c
+[[35minfo[0m] [1.104] ==============================
+[[35minfo[0m] [1.105] [Cycle ]     316
+[[35minfo[0m] [1.105] [current_pc ]     372
+[[35minfo[0m] [1.105] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.105] ==============================
+[[35minfo[0m] [1.106] [Cycle ]     317
+[[35minfo[0m] [1.106] [current_pc ]     372
+[[35minfo[0m] [1.107] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.107] ==============================
+[[35minfo[0m] [1.108] [Cycle ]     318
+[[35minfo[0m] [1.109] [current_pc ]     372
+[[35minfo[0m] [1.111] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.111] ==============================
+[[35minfo[0m] [1.113] [Cycle ]     319
+[[35minfo[0m] [1.113] [current_pc ]     372
+[[35minfo[0m] [1.114] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.114] ==============================
+[[35minfo[0m] [1.115] [Cycle ]     320
+[[35minfo[0m] [1.115] [current_pc ]     372
+[[35minfo[0m] [1.115] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.115] ==============================
+[[35minfo[0m] [1.116] [Cycle ]     321
+[[35minfo[0m] [1.116] [current_pc ]     376
+[[35minfo[0m] [1.116] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.117] ==============================
+[[35minfo[0m] [1.117] [Cycle ]     322
+[[35minfo[0m] [1.117] [current_pc ]     380
+[[35minfo[0m] [1.117] [Inst] lui x07, 0x00000000      
+[[35minfo[0m] [1.118] ==============================
+[[35minfo[0m] [1.118] [Cycle ]     323
+[[35minfo[0m] [1.118] [current_pc ]     384
+[[35minfo[0m] [1.118] [Inst] addi x07, x07, 0x00000020
+[[35minfo[0m] [1.119] ==============================
+[[35minfo[0m] [1.119] [Cycle ]     324
+[[35minfo[0m] [1.119] [current_pc ]     388
+[[35minfo[0m] [1.120] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.120] ==============================
+[[35minfo[0m] [1.120] [Cycle ]     325
+[[35minfo[0m] [1.120] [current_pc ]     388
+[[35minfo[0m] [1.121] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.121] ==============================
+[[35minfo[0m] [1.121] [Cycle ]     326
+[[35minfo[0m] [1.121] [current_pc ]     388
+[[35minfo[0m] [1.122] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.122] ==============================
+[[35minfo[0m] [1.122] [Cycle ]     327
+[[35minfo[0m] [1.122] [current_pc ]     388
+[[35minfo[0m] [1.123] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.123] ==============================
+[[35minfo[0m] [1.123] [Cycle ]     328
+[[35minfo[0m] [1.124] [current_pc ]     388
+[[35minfo[0m] [1.124] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.124] ==============================
+[[35minfo[0m] [1.124] [Cycle ]     329
+[[35minfo[0m] [1.125] [current_pc ]     388
+[[35minfo[0m] [1.125] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.126] ==============================
+[[35minfo[0m] [1.127] [Cycle ]     330
+[[35minfo[0m] [1.128] [current_pc ]     388
+[[35minfo[0m] [1.128] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.128] ==============================
+[[35minfo[0m] [1.129] [Cycle ]     331
+[[35minfo[0m] [1.130] [current_pc ]     392
+[[35minfo[0m] [1.130] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.131] ==============================
+[[35minfo[0m] [1.132] [Cycle ]     332
+[[35minfo[0m] [1.132] [current_pc ]     396
+[[35minfo[0m] [1.133] [Inst] addi x31, x31, 0x00000050
+[[35minfo[0m] [1.133] ==============================
+[[35minfo[0m] [1.134] [Cycle ]     333
+[[35minfo[0m] [1.134] [current_pc ]     400
+[[35minfo[0m] [1.135] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.135] ==============================
+[[35minfo[0m] [1.136] [Cycle ]     334
+[[35minfo[0m] [1.137] [current_pc ]     400
+[[35minfo[0m] [1.137] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.138] ==============================
+[[35minfo[0m] [1.139] [Cycle ]     335
+[[35minfo[0m] [1.139] [current_pc ]     400
+[[35minfo[0m] [1.140] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.140] ==============================
+[[35minfo[0m] [1.141] [Cycle ]     336
+[[35minfo[0m] [1.141] [current_pc ]     400
+[[35minfo[0m] [1.142] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.142] ==============================
+[[35minfo[0m] [1.143] [Cycle ]     337
+[[35minfo[0m] [1.144] [current_pc ]     400
+[[35minfo[0m] [1.144] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.144] ==============================
+[[35minfo[0m] [1.145] [Cycle ]     338
+[[35minfo[0m] [1.146] [current_pc ]     404
+[[35minfo[0m] [1.146] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.147] ==============================
+[[35minfo[0m] [1.148] [Cycle ]     339
+[[35minfo[0m] [1.148] [current_pc ]     408
+[[35minfo[0m] [1.149] [Inst] lui x07, 0x00000010      
+[[35minfo[0m] [1.149] ==============================
+[[35minfo[0m] [1.150] [Cycle ]     340
+[[35minfo[0m] [1.150] [current_pc ]     412
+[[35minfo[0m] [1.151] [Inst] addi x07, x07, 0x00000101
+[[35minfo[0m] [1.151] ==============================
+[[35minfo[0m] [1.152] [Cycle ]     341
+[[35minfo[0m] [1.153] [current_pc ]     416
+[[35minfo[0m] [1.153] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.154] ==============================
+[[35minfo[0m] [1.155] [Cycle ]     342
+[[35minfo[0m] [1.155] [current_pc ]     416
+[[35minfo[0m] [1.156] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.243] ==============================
+[[35minfo[0m] [1.281] [Cycle ]     343
+[[35minfo[0m] [1.281] [current_pc ]     416
+[[35minfo[0m] [1.283] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.283] ==============================
+[[35minfo[0m] [1.286] [Cycle ]     344
+[[35minfo[0m] [1.286] [current_pc ]     416
+[[35minfo[0m] [1.287] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.287] ==============================
+[[35minfo[0m] [1.289] [Cycle ]     345
+[[35minfo[0m] [1.289] [current_pc ]     416
+[[35minfo[0m] [1.290] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.290] ==============================
+[[35minfo[0m] [1.292] [Cycle ]     346
+[[35minfo[0m] [1.293] [current_pc ]     416
+[[35minfo[0m] [1.293] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.293] ==============================
+[[35minfo[0m] [1.294] [Cycle ]     347
+[[35minfo[0m] [1.294] [current_pc ]     416
+[[35minfo[0m] [1.295] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.295] ==============================
+[[35minfo[0m] [1.296] [Cycle ]     348
+[[35minfo[0m] [1.296] [current_pc ]     420
+[[35minfo[0m] [1.296] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.296] ==============================
+[[35minfo[0m] [1.297] [Cycle ]     349
+[[35minfo[0m] [1.297] [current_pc ]     424
+[[35minfo[0m] [1.298] [Inst] addi x31, x31, 0x00000054
+[[35minfo[0m] [1.298] ==============================
+[[35minfo[0m] [1.300] [Cycle ]     350
+[[35minfo[0m] [1.300] [current_pc ]     428
+[[35minfo[0m] [1.301] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.301] ==============================
+[[35minfo[0m] [1.302] [Cycle ]     351
+[[35minfo[0m] [1.303] [current_pc ]     428
+[[35minfo[0m] [1.303] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.303] ==============================
+[[35minfo[0m] [1.305] [Cycle ]     352
+[[35minfo[0m] [1.305] [current_pc ]     428
+[[35minfo[0m] [1.305] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.306] ==============================
+[[35minfo[0m] [1.307] [Cycle ]     353
+[[35minfo[0m] [1.307] [current_pc ]     428
+[[35minfo[0m] [1.308] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.308] ==============================
+[[35minfo[0m] [1.309] [Cycle ]     354
+[[35minfo[0m] [1.310] [current_pc ]     428
+[[35minfo[0m] [1.310] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.311] ==============================
+[[35minfo[0m] [1.312] [Cycle ]     355
+[[35minfo[0m] [1.312] [current_pc ]     432
+[[35minfo[0m] [1.313] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.313] ==============================
+[[35minfo[0m] [1.314] [Cycle ]     356
+[[35minfo[0m] [1.314] [current_pc ]     436
+[[35minfo[0m] [1.315] [Inst] lui x07, 0x00000000      
+[[35minfo[0m] [1.315] ==============================
+[[35minfo[0m] [1.316] [Cycle ]     357
+[[35minfo[0m] [1.317] [current_pc ]     440
+[[35minfo[0m] [1.317] [Inst] addi x07, x07, 0x00000001
+[[35minfo[0m] [1.318] ==============================
+[[35minfo[0m] [1.319] [Cycle ]     358
+[[35minfo[0m] [1.319] [current_pc ]     444
+[[35minfo[0m] [1.319] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.320] ==============================
+[[35minfo[0m] [1.321] [Cycle ]     359
+[[35minfo[0m] [1.321] [current_pc ]     444
+[[35minfo[0m] [1.322] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.322] ==============================
+[[35minfo[0m] [1.325] [Cycle ]     360
+[[35minfo[0m] [1.325] [current_pc ]     444
+[[35minfo[0m] [1.326] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.326] ==============================
+[[35minfo[0m] [1.328] [Cycle ]     361
+[[35minfo[0m] [1.329] [current_pc ]     444
+[[35minfo[0m] [1.329] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.329] ==============================
+[[35minfo[0m] [1.330] [Cycle ]     362
+[[35minfo[0m] [1.330] [current_pc ]     444
+[[35minfo[0m] [1.330] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.331] ==============================
+[[35minfo[0m] [1.331] [Cycle ]     363
+[[35minfo[0m] [1.332] [current_pc ]     444
+[[35minfo[0m] [1.332] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.332] ==============================
+[[35minfo[0m] [1.333] [Cycle ]     364
+[[35minfo[0m] [1.333] [current_pc ]     444
+[[35minfo[0m] [1.333] [Inst] sw t2, 0(t1)             
+[[35minfo[0m] [1.334] ==============================
+[[35minfo[0m] [1.334] [Cycle ]     365
+[[35minfo[0m] [1.334] [current_pc ]     448
+[[35minfo[0m] [1.335] [Inst] lui x31, 0x00000008      
+[[35minfo[0m] [1.335] ==============================
+[[35minfo[0m] [1.336] [Cycle ]     366
+[[35minfo[0m] [1.336] [current_pc ]     452
+[[35minfo[0m] [1.336] [Inst] addi x31, x31, 0x00000040
+[[35minfo[0m] [1.337] ==============================
+[[35minfo[0m] [1.337] [Cycle ]     367
+[[35minfo[0m] [1.337] [current_pc ]     456
+[[35minfo[0m] [1.337] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.338] ==============================
+[[35minfo[0m] [1.338] [Cycle ]     368
+[[35minfo[0m] [1.338] [current_pc ]     456
+[[35minfo[0m] [1.339] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.339] ==============================
+[[35minfo[0m] [1.340] [Cycle ]     369
+[[35minfo[0m] [1.340] [current_pc ]     456
+[[35minfo[0m] [1.340] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.340] ==============================
+[[35minfo[0m] [1.341] [Cycle ]     370
+[[35minfo[0m] [1.341] [current_pc ]     456
+[[35minfo[0m] [1.341] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.342] ==============================
+[[35minfo[0m] [1.342] [Cycle ]     371
+[[35minfo[0m] [1.342] [current_pc ]     456
+[[35minfo[0m] [1.342] [Inst] lw t1, 0(t6)             
+[[35minfo[0m] [1.343] ==============================
+[[35minfo[0m] [1.343] [Cycle ]     372
+[[35minfo[0m] [1.343] [current_pc ]     460
+[[35minfo[0m] [1.344] [Inst] add t1, t1, t0           
+[[35minfo[0m] [1.344] ==============================
+[[35minfo[0m] [1.344] [Cycle ]     373
+[[35minfo[0m] [1.345] [current_pc ]     464
+[[35minfo[0m] [1.346] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.347] ==============================
+[[35minfo[0m] [1.348] [Cycle ]     374
+[[35minfo[0m] [1.348] [current_pc ]     464
+[[35minfo[0m] [1.348] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.349] ==============================
+[[35minfo[0m] [1.349] [Cycle ]     375
+[[35minfo[0m] [1.349] [current_pc ]     464
+[[35minfo[0m] [1.350] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.350] ==============================
+[[35minfo[0m] [1.350] [Cycle ]     376
+[[35minfo[0m] [1.350] [current_pc ]     464
+[[35minfo[0m] [1.351] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.351] ==============================
+[[35minfo[0m] [1.351] [Cycle ]     377
+[[35minfo[0m] [1.351] [current_pc ]     464
+[[35minfo[0m] [1.352] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.352] ==============================
+[[35minfo[0m] [1.352] [Cycle ]     378
+[[35minfo[0m] [1.352] [current_pc ]     464
+[[35minfo[0m] [1.353] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.353] ==============================
+[[35minfo[0m] [1.353] [Cycle ]     379
+[[35minfo[0m] [1.353] [current_pc ]     464
+[[35minfo[0m] [1.354] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.354] ==============================
+[[35minfo[0m] [1.354] [Cycle ]     380
+[[35minfo[0m] [1.354] [current_pc ]     464
+[[35minfo[0m] [1.355] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.355] ==============================
+[[35minfo[0m] [1.355] [Cycle ]     381
+[[35minfo[0m] [1.355] [current_pc ]     464
+[[35minfo[0m] [1.356] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.356] ==============================
+[[35minfo[0m] [1.356] [Cycle ]     382
+[[35minfo[0m] [1.356] [current_pc ]     464
+[[35minfo[0m] [1.357] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.357] ==============================
+[[35minfo[0m] [1.357] [Cycle ]     383
+[[35minfo[0m] [1.357] [current_pc ]     464
+[[35minfo[0m] [1.358] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.358] ==============================
+[[35minfo[0m] [1.358] [Cycle ]     384
+[[35minfo[0m] [1.359] [current_pc ]     464
+[[35minfo[0m] [1.359] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.359] ==============================
+[[35minfo[0m] [1.360] [Cycle ]     385
+[[35minfo[0m] [1.360] [current_pc ]     464
+[[35minfo[0m] [1.360] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.361] ==============================
+[[35minfo[0m] [1.361] [Cycle ]     386
+[[35minfo[0m] [1.362] [current_pc ]     464
+[[35minfo[0m] [1.362] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.362] ==============================
+[[35minfo[0m] [1.363] [Cycle ]     387
+[[35minfo[0m] [1.363] [current_pc ]     464
+[[35minfo[0m] [1.364] [Inst] lw t2, 0(t1)             
+[[35minfo[0m] [1.364] ==============================
+[[35minfo[0m] [1.366] [Cycle ]     388
+[[35minfo[0m] [1.366] [current_pc ]     468
+[[35minfo[0m] [1.367] [Inst] beq t2, x0, wait_sa      
+[[35minfo[0m] [1.367] ==============================
+[[35minfo[0m] [1.368] [Cycle ]     389
+[[35minfo[0m] [1.369] [current_pc ]     472
+[[35minfo[0m] [1.369] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.370] ==============================
+[[35minfo[0m] [1.371] [Cycle ]     390
+[[35minfo[0m] [1.371] [current_pc ]     472
+[[35minfo[0m] [1.372] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.372] ==============================
+[[35minfo[0m] [1.373] [Cycle ]     391
+[[35minfo[0m] [1.374] [current_pc ]     472
+[[35minfo[0m] [1.374] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.374] ==============================
+[[35minfo[0m] [1.377] [Cycle ]     392
+[[35minfo[0m] [1.377] [current_pc ]     472
+[[35minfo[0m] [1.378] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.378] ==============================
+[[35minfo[0m] [1.379] [Cycle ]     393
+[[35minfo[0m] [1.379] [current_pc ]     472
+[[35minfo[0m] [1.380] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.380] ==============================
+[[35minfo[0m] [1.380] [Cycle ]     394
+[[35minfo[0m] [1.380] [current_pc ]     472
+[[35minfo[0m] [1.381] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.381] ==============================
+[[35minfo[0m] [1.381] [Cycle ]     395
+[[35minfo[0m] [1.382] [current_pc ]     472
+[[35minfo[0m] [1.382] [Inst] sw x0, 0(t1)             
+[[35minfo[0m] [1.382] ==============================
+[[35minfo[0m] [1.383] Inst:Hcf
+[[35minfo[0m] [1.383] This is the end of the program!!
+[[35minfo[0m] [1.383] ==============================================
+[[35minfo[0m] [1.385] [Cycle ]     397
+[[35minfo[0m] [1.385] Value in the RegFile :
+[[35minfo[0m] [1.392] reg[00]：00000000 reg[01]：00000000 reg[02]：0000ffff reg[03]：00000000 reg[04]：00000000 reg[05]：00100000 reg[06]：00100004 reg[07]：00000001 
+[[35minfo[0m] [1.403] reg[08]：00008000 reg[09]：00008010 reg[10]：00000000 reg[11]：00000000 reg[12]：00000000 reg[13]：00000000 reg[14]：00000000 reg[15]：00000000 
+[[35minfo[0m] [1.405] reg[16]：00000000 reg[17]：00000000 reg[18]：00008020 reg[19]：00200000 reg[20]：00000000 reg[21]：00000000 reg[22]：00000000 reg[23]：00000000 
+[[35minfo[0m] [1.407] reg[24]：00000000 reg[25]：00000000 reg[26]：00000000 reg[27]：00000000 reg[28]：00000000 reg[29]：00000000 reg[30]：00000000 reg[31]：00008040 
+[[35minfo[0m] [1.407] ==============================
+[[35minfo[0m] [1.408] Value in Systolic Array Memory (in decimal)
+[[35minfo[0m] [1.413] Matrix A :
+[[35minfo[0m] [1.477] mem[0x200000] = 1 4 5 3
+[[35minfo[0m] [1.493] mem[0x200004] = 1 4 2 2
+[[35minfo[0m] [1.502] mem[0x200008] = 5 5 3 3
+[[35minfo[0m] [1.509] mem[0x20000c] = 4 3 1 5
+[[35minfo[0m] [1.513] Matrix B :
+[[35minfo[0m] [1.528] mem[0x200010] = 1 4 3 4
+[[35minfo[0m] [1.537] mem[0x200014] = 5 5 5 2
+[[35minfo[0m] [1.545] mem[0x200018] = 4 4 5 4
+[[35minfo[0m] [1.556] mem[0x20001c] = 3 4 3 5
+[[35minfo[0m] [1.563] Output Matrix :
+[[35minfo[0m] [1.590] mem[0x200020] = 50 56 57 47
+[[35minfo[0m] [1.599] mem[0x200024] = 35 40 39 30
+[[35minfo[0m] [1.603] mem[0x200028] = 51 69 64 57
+[[35minfo[0m] [1.607] mem[0x20002c] = 38 55 47 51
+Enabling waves..
+Exit Code: 0
+[[35minfo[0m] [1.644] RAN 408 CYCLES PASSED
+[success] Total time: 81 s (01:21), completed Jun 9, 2024, 5:43:58 PM

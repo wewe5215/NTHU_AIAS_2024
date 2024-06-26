@@ -1,0 +1,199 @@
+Parsing input file
+
+Next: addi x3, x0, 3
+[inst:      1 pc:      0, src line    2]
+>> rf[x03] 0 -> 3
+
+Next: slli x2, x3, 2
+[inst:      2 pc:      4, src line    3]
+>> rf[x02] 0 -> 12
+
+Next: addi x4, x0, 4
+[inst:      3 pc:      8, src line    4]
+>> rf[x04] 0 -> 4
+
+Next: slti x4, x4, 5
+[inst:      4 pc:     12, src line    5]
+>> rf[x04] 4 -> 1
+
+Next: addi x4, x0, 4
+[inst:      5 pc:     16, src line    6]
+>> rf[x04] 1 -> 4
+
+Next: slti x4, x4, 4
+[inst:      6 pc:     20, src line    7]
+>> rf[x04] 4 -> 0
+
+Next: addi x4, x0, 4
+[inst:      7 pc:     24, src line    8]
+>> rf[x04] 0 -> 4
+
+Next: slti x4, x4, 3
+[inst:      8 pc:     28, src line    9]
+>> rf[x04] 4 -> 0
+
+Next: addi x4, x0, 4
+[inst:      9 pc:     32, src line   10]
+>> rf[x04] 0 -> 4
+
+Next: slti x4, x4, -4
+[inst:     10 pc:     36, src line   11]
+>> rf[x04] 4 -> 0
+
+Next: addi x5, x0, 5
+[inst:     11 pc:     40, src line   12]
+>> rf[x05] 0 -> 5
+
+Next: sltiu x5, x5, 5
+[inst:     12 pc:     44, src line   13]
+>> rf[x05] 5 -> 0
+
+Next: addi x5, x0, 5
+[inst:     13 pc:     48, src line   14]
+>> rf[x05] 0 -> 5
+
+Next: sltiu x5, x5, 4
+[inst:     14 pc:     52, src line   15]
+>> rf[x05] 5 -> 0
+
+Next: addi x5, x0, 5
+[inst:     15 pc:     56, src line   16]
+>> rf[x05] 0 -> 5
+
+Next: sltiu x5, x5, 3
+[inst:     16 pc:     60, src line   17]
+>> rf[x05] 5 -> 0
+
+Next: addi x6, x0, 6
+[inst:     17 pc:     64, src line   18]
+>> rf[x06] 0 -> 6
+
+Next: xori x7, x6, 2
+[inst:     18 pc:     68, src line   19]
+>> rf[x07] 0 -> 4
+
+Next: addi x6, x0, 6
+[inst:     19 pc:     72, src line   20]
+>> rf[x06] 6 -> 6
+
+Next: xori x7, x6, 0
+[inst:     20 pc:     76, src line   21]
+>> rf[x07] 4 -> 6
+
+Next: addi x6, x0, 6
+[inst:     21 pc:     80, src line   22]
+>> rf[x06] 6 -> 6
+
+Next: xori x7, x6, -1
+[inst:     22 pc:     84, src line   23]
+>> rf[x07] 6 -> -7
+
+Next: addi x6, x0, 6
+[inst:     23 pc:     88, src line   24]
+>> rf[x06] 6 -> 6
+
+Next: srli x7, x6, 2
+[inst:     24 pc:     92, src line   25]
+>> rf[x07] -7 -> 1
+
+Next: addi x6, x0, 6
+[inst:     25 pc:     96, src line   26]
+>> rf[x06] 6 -> 6
+
+Next: srli x7, x6, 0
+[inst:     26 pc:    100, src line   27]
+>> rf[x07] 1 -> 6
+
+Next: addi x6, x0, 6
+[inst:     27 pc:    104, src line   28]
+>> rf[x06] 6 -> 6
+
+Next: srli x7, x6, -1
+[inst:     28 pc:    108, src line   29]
+>> rf[x07] 6 -> 0
+
+Next: addi x6, x0, 6
+[inst:     29 pc:    112, src line   30]
+>> rf[x06] 6 -> 6
+
+Next: srai x7, x6, 2
+[inst:     30 pc:    116, src line   31]
+>> rf[x07] 0 -> 1
+
+Next: addi x6, x0, 6
+[inst:     31 pc:    120, src line   32]
+>> rf[x06] 6 -> 6
+
+Next: srai x7, x6, 0
+[inst:     32 pc:    124, src line   33]
+>> rf[x07] 1 -> 6
+
+Next: addi x6, x0, 6
+[inst:     33 pc:    128, src line   34]
+>> rf[x06] 6 -> 6
+
+Next: srai x7, x6, -1
+[inst:     34 pc:    132, src line   35]
+>> rf[x07] 6 -> 0
+
+Next: addi x6, x0, 6
+[inst:     35 pc:    136, src line   36]
+>> rf[x06] 6 -> 6
+
+Next: ori x7, x6, 2
+[inst:     36 pc:    140, src line   37]
+>> rf[x07] 0 -> 6
+
+Next: addi x6, x0, 6
+[inst:     37 pc:    144, src line   38]
+>> rf[x06] 6 -> 6
+
+Next: ori x7, x6, -1
+[inst:     38 pc:    148, src line   39]
+>> rf[x07] 6 -> -1
+
+Next: addi x6, x0, 6
+[inst:     39 pc:    152, src line   40]
+>> rf[x06] 6 -> 6
+
+Next: ori x7, x6, 0
+[inst:     40 pc:    156, src line   41]
+>> rf[x07] -1 -> 6
+
+Next: addi x6, x0, 6
+[inst:     41 pc:    160, src line   42]
+>> rf[x06] 6 -> 6
+
+Next: andi x7, x6, 2
+[inst:     42 pc:    164, src line   43]
+>> rf[x07] 6 -> 2
+
+Next: addi x6, x0, 6
+[inst:     43 pc:    168, src line   44]
+>> rf[x06] 6 -> 6
+
+Next: andi x7, x6, -1
+[inst:     44 pc:    172, src line   45]
+>> rf[x07] 2 -> 6
+
+Next: addi x6, x0, 6
+[inst:     45 pc:    176, src line   46]
+>> rf[x06] 6 -> 6
+
+Next: andi x7, x6, 0
+[inst:     46 pc:    180, src line   47]
+>> rf[x07] 6 -> 0
+
+[inst:     47 pc:    184, src line   48]
+
+
+----------
+
+Reached Halt and Catch Fire instruction!
+inst:     47 pc:    184 src line: 48
+x00:0x00000000 x01:0x00000000 x02:0x0000000c x03:0x00000003 x04:0x00000000 x05:0x00000000 x06:0x00000006 x07:0x00000000 
+x08:0x00000000 x09:0x00000000 x10:0x00000000 x11:0x00000000 x12:0x00000000 x13:0x00000000 x14:0x00000000 x15:0x00000000 
+x16:0x00000000 x17:0x00000000 x18:0x00000000 x19:0x00000000 x20:0x00000000 x21:0x00000000 x22:0x00000000 x23:0x00000000 
+x24:0x00000000 x25:0x00000000 x26:0x00000000 x27:0x00000000 x28:0x00000000 x29:0x00000000 x30:0x00000000 x31:0x00000000 
+>> rf[x07] 0 -> 0
+Execution done!

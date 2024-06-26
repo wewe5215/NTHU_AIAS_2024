@@ -1,0 +1,366 @@
+   .text
+   .global test_asm
+   .type test_asm, @function
+test_asm:
+prologue:
+   addi sp, sp, -12
+   sw ra, 0(sp)
+   sw a0, 4(sp)
+   addi t3, x0, 0
+test:
+   addi t1, x0, 32
+   addi t2, x0, -513
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 818
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, 0
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 12
+   addi t2, x0, 12
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 1365
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 3
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -33
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 16
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -5
+   addi t2, x0, 0
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 1283
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 12
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -9
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, 2047
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, -1025
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -65
+   addi t2, x0, -257
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 1024
+   addi t2, x0, -129
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 1
+   addi t2, x0, -65
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 818
+   addi t2, x0, -33
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -65
+   addi t2, x0, -17
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 0
+   addi t2, x0, -9
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -5
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -2
+   addi t2, x0, -3
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 1024
+   addi t2, x0, -2
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 0
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 512
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 1283
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -2
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 1637
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 18
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 14
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -65
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -3
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1
+   addi t2, x0, 10
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, 2047
+   addi t2, x0, -1
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -1025
+   addi t2, x0, 4
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -513
+   addi t2, x0, -9
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -257
+   addi t2, x0, 16
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -129
+   addi t2, x0, 0
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+   addi t1, x0, -17
+   addi t2, x0, 0
+   remu t0, t1, t2
+   slli t4, t3, 2
+   add t5, a0, t4
+   sw t0, 0(t5)
+   addi t3, t3, 1
+epilogue:
+   lw ra, 0(sp)
+   lw a0, 4(sp)
+   addi sp, sp, 12
+   jr ra
+   .size test_asm, .-test_asm

@@ -1,0 +1,615 @@
+Parsing input file
+
+Next: addi t1, x0, 32
+[inst:      1 pc:      0, src line    2]
+>> rf[x06] 0 -> 32
+
+Next: addi t2, x0, -513
+[inst:      2 pc:      4, src line    3]
+>> rf[x07] 0 -> -513
+
+Next: remu t0, t1, t2
+[inst:      3 pc:      8, src line    4]
+>> rf[x05] 0 -> 32
+
+Next: addi t1, x0, 818
+[inst:      4 pc:     12, src line    5]
+>> rf[x06] 32 -> 818
+
+Next: addi t2, x0, -1
+[inst:      5 pc:     16, src line    6]
+>> rf[x07] -513 -> -1
+
+Next: remu t0, t1, t2
+[inst:      6 pc:     20, src line    7]
+>> rf[x05] 32 -> 818
+
+Next: addi t1, x0, 0
+[inst:      7 pc:     24, src line    8]
+>> rf[x06] 818 -> 0
+
+Next: addi t2, x0, 0
+[inst:      8 pc:     28, src line    9]
+>> rf[x07] -1 -> 0
+
+Next: remu t0, t1, t2
+[inst:      9 pc:     32, src line   10]
+>> rf[x05] 818 -> 0
+
+Next: addi t1, x0, 12
+[inst:     10 pc:     36, src line   11]
+>> rf[x06] 0 -> 12
+
+Next: addi t2, x0, 12
+[inst:     11 pc:     40, src line   12]
+>> rf[x07] 0 -> 12
+
+Next: remu t0, t1, t2
+[inst:     12 pc:     44, src line   13]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, -1
+[inst:     13 pc:     48, src line   14]
+>> rf[x06] 12 -> -1
+
+Next: addi t2, x0, -1
+[inst:     14 pc:     52, src line   15]
+>> rf[x07] 12 -> -1
+
+Next: remu t0, t1, t2
+[inst:     15 pc:     56, src line   16]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, 0
+[inst:     16 pc:     60, src line   17]
+>> rf[x06] -1 -> 0
+
+Next: addi t2, x0, -1
+[inst:     17 pc:     64, src line   18]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     18 pc:     68, src line   19]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, 1365
+[inst:     19 pc:     72, src line   20]
+>> rf[x06] 0 -> 1365
+
+Next: addi t2, x0, -1
+[inst:     20 pc:     76, src line   21]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     21 pc:     80, src line   22]
+>> rf[x05] 0 -> 1365
+
+Next: addi t1, x0, 0
+[inst:     22 pc:     84, src line   23]
+>> rf[x06] 1365 -> 0
+
+Next: addi t2, x0, -1
+[inst:     23 pc:     88, src line   24]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     24 pc:     92, src line   25]
+>> rf[x05] 1365 -> 0
+
+Next: addi t1, x0, 3
+[inst:     25 pc:     96, src line   26]
+>> rf[x06] 0 -> 3
+
+Next: addi t2, x0, -1
+[inst:     26 pc:    100, src line   27]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     27 pc:    104, src line   28]
+>> rf[x05] 0 -> 3
+
+Next: addi t1, x0, -33
+[inst:     28 pc:    108, src line   29]
+>> rf[x06] 3 -> -33
+
+Next: addi t2, x0, -1
+[inst:     29 pc:    112, src line   30]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     30 pc:    116, src line   31]
+>> rf[x05] 3 -> -33
+
+Next: addi t1, x0, 16
+[inst:     31 pc:    120, src line   32]
+>> rf[x06] -33 -> 16
+
+Next: addi t2, x0, -1
+[inst:     32 pc:    124, src line   33]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     33 pc:    128, src line   34]
+>> rf[x05] -33 -> 16
+
+Next: addi t1, x0, -5
+[inst:     34 pc:    132, src line   35]
+>> rf[x06] 16 -> -5
+
+Next: addi t2, x0, 0
+[inst:     35 pc:    136, src line   36]
+>> rf[x07] -1 -> 0
+
+Next: remu t0, t1, t2
+[inst:     36 pc:    140, src line   37]
+>> rf[x05] 16 -> -5
+
+Next: addi t1, x0, -1
+[inst:     37 pc:    144, src line   38]
+>> rf[x06] -5 -> -1
+
+Next: addi t2, x0, -1
+[inst:     38 pc:    148, src line   39]
+>> rf[x07] 0 -> -1
+
+Next: remu t0, t1, t2
+[inst:     39 pc:    152, src line   40]
+>> rf[x05] -5 -> 0
+
+Next: addi t1, x0, 1283
+[inst:     40 pc:    156, src line   41]
+>> rf[x06] -1 -> 1283
+
+Next: addi t2, x0, -1
+[inst:     41 pc:    160, src line   42]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     42 pc:    164, src line   43]
+>> rf[x05] 0 -> 1283
+
+Next: addi t1, x0, -1
+[inst:     43 pc:    168, src line   44]
+>> rf[x06] 1283 -> -1
+
+Next: addi t2, x0, -1
+[inst:     44 pc:    172, src line   45]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     45 pc:    176, src line   46]
+>> rf[x05] 1283 -> 0
+
+Next: addi t1, x0, -1
+[inst:     46 pc:    180, src line   47]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -1
+[inst:     47 pc:    184, src line   48]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     48 pc:    188, src line   49]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, -1
+[inst:     49 pc:    192, src line   50]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -1
+[inst:     50 pc:    196, src line   51]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     51 pc:    200, src line   52]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, -1
+[inst:     52 pc:    204, src line   53]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -1
+[inst:     53 pc:    208, src line   54]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     54 pc:    212, src line   55]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, 12
+[inst:     55 pc:    216, src line   56]
+>> rf[x06] -1 -> 12
+
+Next: addi t2, x0, -1
+[inst:     56 pc:    220, src line   57]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     57 pc:    224, src line   58]
+>> rf[x05] 0 -> 12
+
+Next: addi t1, x0, 0
+[inst:     58 pc:    228, src line   59]
+>> rf[x06] 12 -> 0
+
+Next: addi t2, x0, -1
+[inst:     59 pc:    232, src line   60]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     60 pc:    236, src line   61]
+>> rf[x05] 12 -> 0
+
+Next: addi t1, x0, -9
+[inst:     61 pc:    240, src line   62]
+>> rf[x06] 0 -> -9
+
+Next: addi t2, x0, -1
+[inst:     62 pc:    244, src line   63]
+>> rf[x07] -1 -> -1
+
+Next: remu t0, t1, t2
+[inst:     63 pc:    248, src line   64]
+>> rf[x05] 0 -> -9
+
+Next: addi t1, x0, 0
+[inst:     64 pc:    252, src line   65]
+>> rf[x06] -9 -> 0
+
+Next: addi t2, x0, 2047
+[inst:     65 pc:    256, src line   66]
+>> rf[x07] -1 -> 2047
+
+Next: remu t0, t1, t2
+[inst:     66 pc:    260, src line   67]
+>> rf[x05] -9 -> 0
+
+Next: addi t1, x0, 0
+[inst:     67 pc:    264, src line   68]
+>> rf[x06] 0 -> 0
+
+Next: addi t2, x0, -1025
+[inst:     68 pc:    268, src line   69]
+>> rf[x07] 2047 -> -1025
+
+Next: remu t0, t1, t2
+[inst:     69 pc:    272, src line   70]
+>> rf[x05] 0 -> 0
+
+Next: addi t1, x0, -65
+[inst:     70 pc:    276, src line   71]
+>> rf[x06] 0 -> -65
+
+Next: addi t2, x0, -257
+[inst:     71 pc:    280, src line   72]
+>> rf[x07] -1025 -> -257
+
+Next: remu t0, t1, t2
+[inst:     72 pc:    284, src line   73]
+>> rf[x05] 0 -> 192
+
+Next: addi t1, x0, 1024
+[inst:     73 pc:    288, src line   74]
+>> rf[x06] -65 -> 1024
+
+Next: addi t2, x0, -129
+[inst:     74 pc:    292, src line   75]
+>> rf[x07] -257 -> -129
+
+Next: remu t0, t1, t2
+[inst:     75 pc:    296, src line   76]
+>> rf[x05] 192 -> 1024
+
+Next: addi t1, x0, 1
+[inst:     76 pc:    300, src line   77]
+>> rf[x06] 1024 -> 1
+
+Next: addi t2, x0, -65
+[inst:     77 pc:    304, src line   78]
+>> rf[x07] -129 -> -65
+
+Next: remu t0, t1, t2
+[inst:     78 pc:    308, src line   79]
+>> rf[x05] 1024 -> 1
+
+Next: addi t1, x0, 818
+[inst:     79 pc:    312, src line   80]
+>> rf[x06] 1 -> 818
+
+Next: addi t2, x0, -33
+[inst:     80 pc:    316, src line   81]
+>> rf[x07] -65 -> -33
+
+Next: remu t0, t1, t2
+[inst:     81 pc:    320, src line   82]
+>> rf[x05] 1 -> 818
+
+Next: addi t1, x0, -65
+[inst:     82 pc:    324, src line   83]
+>> rf[x06] 818 -> -65
+
+Next: addi t2, x0, -17
+[inst:     83 pc:    328, src line   84]
+>> rf[x07] -33 -> -17
+
+Next: remu t0, t1, t2
+[inst:     84 pc:    332, src line   85]
+>> rf[x05] 818 -> -65
+
+Next: addi t1, x0, 0
+[inst:     85 pc:    336, src line   86]
+>> rf[x06] -65 -> 0
+
+Next: addi t2, x0, -9
+[inst:     86 pc:    340, src line   87]
+>> rf[x07] -17 -> -9
+
+Next: remu t0, t1, t2
+[inst:     87 pc:    344, src line   88]
+>> rf[x05] -65 -> 0
+
+Next: addi t1, x0, -1
+[inst:     88 pc:    348, src line   89]
+>> rf[x06] 0 -> -1
+
+Next: addi t2, x0, -5
+[inst:     89 pc:    352, src line   90]
+>> rf[x07] -9 -> -5
+
+Next: remu t0, t1, t2
+[inst:     90 pc:    356, src line   91]
+>> rf[x05] 0 -> 4
+
+Next: addi t1, x0, -2
+[inst:     91 pc:    360, src line   92]
+>> rf[x06] -1 -> -2
+
+Next: addi t2, x0, -3
+[inst:     92 pc:    364, src line   93]
+>> rf[x07] -5 -> -3
+
+Next: remu t0, t1, t2
+[inst:     93 pc:    368, src line   94]
+>> rf[x05] 4 -> 1
+
+Next: addi t1, x0, 1024
+[inst:     94 pc:    372, src line   95]
+>> rf[x06] -2 -> 1024
+
+Next: addi t2, x0, -2
+[inst:     95 pc:    376, src line   96]
+>> rf[x07] -3 -> -2
+
+Next: remu t0, t1, t2
+[inst:     96 pc:    380, src line   97]
+>> rf[x05] 1 -> 1024
+
+Next: addi t1, x0, -1
+[inst:     97 pc:    384, src line   98]
+>> rf[x06] 1024 -> -1
+
+Next: addi t2, x0, 0
+[inst:     98 pc:    388, src line   99]
+>> rf[x07] -2 -> 0
+
+Next: remu t0, t1, t2
+[inst:     99 pc:    392, src line  100]
+>> rf[x05] 1024 -> -1
+
+Next: addi t1, x0, -1
+[inst:    100 pc:    396, src line  101]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 512
+[inst:    101 pc:    400, src line  102]
+>> rf[x07] 0 -> 512
+
+Next: remu t0, t1, t2
+[inst:    102 pc:    404, src line  103]
+>> rf[x05] -1 -> 511
+
+Next: addi t1, x0, -1
+[inst:    103 pc:    408, src line  104]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 1283
+[inst:    104 pc:    412, src line  105]
+>> rf[x07] 512 -> 1283
+
+Next: remu t0, t1, t2
+[inst:    105 pc:    416, src line  106]
+>> rf[x05] 511 -> 344
+
+Next: addi t1, x0, -1
+[inst:    106 pc:    420, src line  107]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -2
+[inst:    107 pc:    424, src line  108]
+>> rf[x07] 1283 -> -2
+
+Next: remu t0, t1, t2
+[inst:    108 pc:    428, src line  109]
+>> rf[x05] 344 -> 1
+
+Next: addi t1, x0, -1
+[inst:    109 pc:    432, src line  110]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -1
+[inst:    110 pc:    436, src line  111]
+>> rf[x07] -2 -> -1
+
+Next: remu t0, t1, t2
+[inst:    111 pc:    440, src line  112]
+>> rf[x05] 1 -> 0
+
+Next: addi t1, x0, -1
+[inst:    112 pc:    444, src line  113]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 1637
+[inst:    113 pc:    448, src line  114]
+>> rf[x07] -1 -> 1637
+
+Next: remu t0, t1, t2
+[inst:    114 pc:    452, src line  115]
+>> rf[x05] 0 -> 1498
+
+Next: addi t1, x0, -1
+[inst:    115 pc:    456, src line  116]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 18
+[inst:    116 pc:    460, src line  117]
+>> rf[x07] 1637 -> 18
+
+Next: remu t0, t1, t2
+[inst:    117 pc:    464, src line  118]
+>> rf[x05] 1498 -> 3
+
+Next: addi t1, x0, -1
+[inst:    118 pc:    468, src line  119]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 14
+[inst:    119 pc:    472, src line  120]
+>> rf[x07] 18 -> 14
+
+Next: remu t0, t1, t2
+[inst:    120 pc:    476, src line  121]
+>> rf[x05] 3 -> 3
+
+Next: addi t1, x0, -1
+[inst:    121 pc:    480, src line  122]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -65
+[inst:    122 pc:    484, src line  123]
+>> rf[x07] 14 -> -65
+
+Next: remu t0, t1, t2
+[inst:    123 pc:    488, src line  124]
+>> rf[x05] 3 -> 64
+
+Next: addi t1, x0, -1
+[inst:    124 pc:    492, src line  125]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -3
+[inst:    125 pc:    496, src line  126]
+>> rf[x07] -65 -> -3
+
+Next: remu t0, t1, t2
+[inst:    126 pc:    500, src line  127]
+>> rf[x05] 64 -> 2
+
+Next: addi t1, x0, -1
+[inst:    127 pc:    504, src line  128]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, -1
+[inst:    128 pc:    508, src line  129]
+>> rf[x07] -3 -> -1
+
+Next: remu t0, t1, t2
+[inst:    129 pc:    512, src line  130]
+>> rf[x05] 2 -> 0
+
+Next: addi t1, x0, -1
+[inst:    130 pc:    516, src line  131]
+>> rf[x06] -1 -> -1
+
+Next: addi t2, x0, 10
+[inst:    131 pc:    520, src line  132]
+>> rf[x07] -1 -> 10
+
+Next: remu t0, t1, t2
+[inst:    132 pc:    524, src line  133]
+>> rf[x05] 0 -> 5
+
+Next: addi t1, x0, 2047
+[inst:    133 pc:    528, src line  134]
+>> rf[x06] -1 -> 2047
+
+Next: addi t2, x0, -1
+[inst:    134 pc:    532, src line  135]
+>> rf[x07] 10 -> -1
+
+Next: remu t0, t1, t2
+[inst:    135 pc:    536, src line  136]
+>> rf[x05] 5 -> 2047
+
+Next: addi t1, x0, -1025
+[inst:    136 pc:    540, src line  137]
+>> rf[x06] 2047 -> -1025
+
+Next: addi t2, x0, 4
+[inst:    137 pc:    544, src line  138]
+>> rf[x07] -1 -> 4
+
+Next: remu t0, t1, t2
+[inst:    138 pc:    548, src line  139]
+>> rf[x05] 2047 -> 3
+
+Next: addi t1, x0, -513
+[inst:    139 pc:    552, src line  140]
+>> rf[x06] -1025 -> -513
+
+Next: addi t2, x0, -9
+[inst:    140 pc:    556, src line  141]
+>> rf[x07] 4 -> -9
+
+Next: remu t0, t1, t2
+[inst:    141 pc:    560, src line  142]
+>> rf[x05] 3 -> -513
+
+Next: addi t1, x0, -257
+[inst:    142 pc:    564, src line  143]
+>> rf[x06] -513 -> -257
+
+Next: addi t2, x0, 16
+[inst:    143 pc:    568, src line  144]
+>> rf[x07] -9 -> 16
+
+Next: remu t0, t1, t2
+[inst:    144 pc:    572, src line  145]
+>> rf[x05] -513 -> 15
+
+Next: addi t1, x0, -129
+[inst:    145 pc:    576, src line  146]
+>> rf[x06] -257 -> -129
+
+Next: addi t2, x0, 0
+[inst:    146 pc:    580, src line  147]
+>> rf[x07] 16 -> 0
+
+Next: remu t0, t1, t2
+[inst:    147 pc:    584, src line  148]
+>> rf[x05] 15 -> -129
+
+Next: addi t1, x0, -17
+[inst:    148 pc:    588, src line  149]
+>> rf[x06] -129 -> -17
+
+Next: addi t2, x0, 0
+[inst:    149 pc:    592, src line  150]
+>> rf[x07] 0 -> 0
+
+Next: remu t0, t1, t2
+[inst:    150 pc:    596, src line  151]
+>> rf[x05] -129 -> -17
+
+[inst:    151 pc:    600, src line  152]
+
+
+----------
+
+Reached Halt and Catch Fire instruction!
+inst:    151 pc:    600 src line: 152
+x00:0x00000000 x01:0x00000000 x02:0x00000000 x03:0x00000000 x04:0x00000000 x05:0xffffffef x06:0xffffffef x07:0x00000000 
+x08:0x00000000 x09:0x00000000 x10:0x00000000 x11:0x00000000 x12:0x00000000 x13:0x00000000 x14:0x00000000 x15:0x00000000 
+x16:0x00000000 x17:0x00000000 x18:0x00000000 x19:0x00000000 x20:0x00000000 x21:0x00000000 x22:0x00000000 x23:0x00000000 
+x24:0x00000000 x25:0x00000000 x26:0x00000000 x27:0x00000000 x28:0x00000000 x29:0x00000000 x30:0x00000000 x31:0x00000000 
+>> rf[x05] -17 -> -17
+Execution done!
