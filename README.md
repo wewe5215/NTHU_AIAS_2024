@@ -45,7 +45,7 @@
 - Hw 14-3 Put Everything together to run a different dimension matrix multiplication
 - Hw 14-4 Prepare software for the Conv2D operation and compare with the result in Lab 11.
 ## Note
-- Group work(Hw9-4, Hw7-2) is not included in this repository.
+- Group works(Hw9-4, Hw7-2) are not included in this repository.
 - Fixes needed:
   - hw2-2-3, hw2-4-3 (with minor errors)
   - hw2-4, hw5-2-3 (my design is not robust)
